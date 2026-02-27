@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.lstmf
+*.box
+*.gt.txt
+*.tif
+*.log
+*.checkpoint
+*.lstm
+.venv/
+training_data/
+langdata_lstm/
+lable_captcha*/
+eng.traineddata
+eng_best.traineddata
+eng_best.*
