@@ -18,22 +18,8 @@ import random
 import argparse
 import subprocess
 from pathlib import Path
-
-try:
-    import cv2
-except ImportError:
-    print("Installing opencv-python-headless...")
-    subprocess.check_call([sys.executable, "-m", "pip", "install",
-                           "opencv-python-headless", "--break-system-packages", "-q"])
-    import cv2
-
-try:
-    import pytesseract
-except ImportError:
-    print("Installing pytesseract...")
-    subprocess.check_call([sys.executable, "-m", "pip", "install",
-                           "pytesseract", "--break-system-packages", "-q"])
-    import pytesseract
+import cv2
+import pytesseract
 
 import numpy as np
 
@@ -97,9 +83,15 @@ def run_evaluation(image_dir: str, model_dir: str, model_name: str,
 
     if not use_eval_list:
         all_images = sorted(glob.glob(f"{image_dir}/*.png"))
+        if not all_images: # try jpg?
+            all_images = sorted(glob.glob(f"{image_dir}/*.jpg"))
         random.seed(42)
-        image_files = random.sample(all_images, min(n_samples, len(all_images)))
-        print(f"  Randomly sampled: {len(image_files)} images")
+        if n_samples > 0:
+            image_files = random.sample(all_images, min(n_samples, len(all_images)))
+            print(f"  Randomly sampled: {len(image_files)} images")
+        else:
+            image_files = all_images
+            print(f"  Testing all: {len(image_files)} images")
 
     if not image_files:
         print("ERROR: No images found to test.")
@@ -133,7 +125,10 @@ def run_evaluation(image_dir: str, model_dir: str, model_name: str,
     print(HEADER)
     print("-" * len(HEADER))
 
-    for i, img_path in enumerate(image_files[:n_samples]):
+    for i, img_path in enumerate(image_files):
+        if n_samples > 0 and i >= n_samples:
+            break
+            
         filename    = os.path.basename(img_path)
         ground_truth = os.path.splitext(filename)[0]
 
@@ -190,7 +185,7 @@ if __name__ == "__main__":
     parser.add_argument("--images",   default=IMAGE_DIR,  help="Path to raw PNG directory")
     parser.add_argument("--model",    default=MODEL_DIR,  help="Tessdata directory (containing .traineddata)")
     parser.add_argument("--lang",     default=MODEL_NAME, help="Tesseract language/model name")
-    parser.add_argument("--samples",  type=int, default=200, help="Number of images to test")
+    parser.add_argument("--samples",  type=int, default=0, help="Number of images to test (0 for all)")
     parser.add_argument("--eval-list",action="store_true",  help="Use eval.list for held-out testing")
     args = parser.parse_args()
 

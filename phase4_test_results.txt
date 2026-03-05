@@ -1,0 +1,2209 @@
+
+[Phase 5] Inference Evaluation
+  Image dir : /home/ca/Downloads/lable_captcha
+  Model dir : /home/ca/Projects/captcha_model/model_output_phase4
+  Model name: phase4_captcha_100
+  Testing all: 2189 images
+
+  Model: /home/ca/Projects/captcha_model/model_output_phase4/phase4_captcha_100.traineddata
+  Config: --psm 13 --tessdata-dir /home/ca/Projects/captcha_model/model_output_phase4
+  Lang  : phase4_captcha_100
+
+   #  Ground Truth  Predicted      Match      CER
+-------------------------------------------------
+   1  33Xg          33Xg             ✅      0.000
+   2  364FJ         364FJ            ✅      0.000
+   3  366rg         366rg            ✅      0.000
+   4  36PWkX        36PWkX           ✅      0.000
+   5  36gR          36gR             ✅      0.000
+   6  3=tZ4G        3=tZ4G           ✅      0.000
+   7  3@ea          3@ea             ✅      0.000
+   8  3@muh         3@muh            ✅      0.000
+   9  3DhTk         3DhTk            ✅      0.000
+  10  3E4H          3E4H             ✅      0.000
+  11  3F7@PM        3F7@PM           ✅      0.000
+  12  3FFFe=        3FFFe=           ✅      0.000
+  13  3FnPHY        3FnPHY           ✅      0.000
+  14  3Gfd          3Gfd             ✅      0.000
+  15  3HHgXX        3HHgXX           ✅      0.000
+  16  3K6PJr        3K6PJr           ✅      0.000
+  17  3LJa          3LJa             ✅      0.000
+  18  3MGutX        3MGutX           ✅      0.000
+  19  3MRZrZ        3MRZrZ           ✅      0.000
+  20  3MkD          3MkD             ✅      0.000
+  21  3NaJ9G        3NaJ9G           ✅      0.000
+  22  3NndNL        3NndNL           ✅      0.000
+  23  3PY4f@        3PY4f@           ✅      0.000
+  24  3PYMb         3PYMb            ✅      0.000
+  25  3QK7KG        3QK7KG           ✅      0.000
+  26  3Qg7Zu        3Qg7Zu           ✅      0.000
+  27  3RNEH@        3RNEH@           ✅      0.000
+  28  3TMR          3TMR             ✅      0.000
+  29  3TRZu7        3TRZu7           ✅      0.000
+  30  3Tb64e        3Tb64e           ✅      0.000
+  31  3V=G6         3V=G6            ✅      0.000
+  32  3V=K3Z        3V=K3Z           ✅      0.000
+  33  3VPrP         3VPrP            ✅      0.000
+  34  3WVX          3WVX             ✅      0.000
+  35  3XLfU         3XLfU            ✅      0.000
+  36  3XmmuM        3XmmuM           ✅      0.000
+  37  3YN4dM        3YN4dM           ✅      0.000
+  38  3YXh          3YXh             ✅      0.000
+  39  3YdaUE        3YdaUE           ✅      0.000
+  40  3Zt7W         3Zt7W            ✅      0.000
+  41  3agT          3agT             ✅      0.000
+  42  3ahaV         3ahaV            ✅      0.000
+  43  3andZ         3andZ            ✅      0.000
+  44  3b6UP         3b6UP            ✅      0.000
+  45  3bJn          3bJn             ✅      0.000
+  46  3bauQ         3bauQ            ✅      0.000
+  47  3bmVH         3bmVH            ✅      0.000
+  48  3edbZ         3edbZ            ✅      0.000
+  49  3egLE         3egLE            ✅      0.000
+  50  3emb4R        3emb4R           ✅      0.000
+  51  3etJ          3etJ             ✅      0.000
+  52  3ggZ          3ggZ             ✅      0.000
+  53  3hYP7         3hYP7            ✅      0.000
+  54  3hb3=Z        3hb3=Z           ✅      0.000
+  55  3kP=          3kP=             ✅      0.000
+  56  3kfLT         3kfLT            ✅      0.000
+  57  3mYYJ         3mYYJ            ✅      0.000
+  58  3maL6         3maL6            ✅      0.000
+  59  3maXH         3maXH            ✅      0.000
+  60  3qdZ=P        3qdZ=P           ✅      0.000
+  61  3r7J9         3r7J9            ✅      0.000
+  62  3rRGJU        3rRGJU           ✅      0.000
+  63  3u3rqX        3u3rqX           ✅      0.000
+  64  3uE9          3uE9             ✅      0.000
+  65  3uLtba        3uLtba           ✅      0.000
+  66  3uT@E         3uT@E            ✅      0.000
+  67  496e          496e             ✅      0.000
+  68  49gG          49gG             ✅      0.000
+  69  49hGb3        49hGb3           ✅      0.000
+  70  4@F7R         4@F7R            ✅      0.000
+  71  4D36N         4D36N            ✅      0.000
+  72  4D9URm        4D9URm           ✅      0.000
+  73  4EZrdZ        4EZrdZ           ✅      0.000
+  74  4FQEN         4FQEN            ✅      0.000
+  75  4KGke         4KGke            ✅      0.000
+  76  4KK9Du        4KK9Du           ✅      0.000
+  77  4M6EV         4M6EV            ✅      0.000
+  78  4MJn          4MJn             ✅      0.000
+  79  4MKgG6        4MKgG6           ✅      0.000
+  80  4MPb          4MPb             ✅      0.000
+  81  4MTY          4MTY             ✅      0.000
+  82  4NdY          4NdY             ✅      0.000
+  83  4PFW          4PFW             ✅      0.000
+  84  4Q9rHh        4Q9rHh           ✅      0.000
+  85  4QYGD         4QYGD            ✅      0.000
+  86  4TNF          4TNF             ✅      0.000
+  87  4WJr3P        4WJr3P           ✅      0.000
+  88  4X@=u         4X@=u            ✅      0.000
+  89  4b67q         4b67q            ✅      0.000
+  90  4dEr6         4dEr6            ✅      0.000
+  91  4dHer         4dHer            ✅      0.000
+  92  4eG=          4eG=             ✅      0.000
+  93  4gD97         4gD97            ✅      0.000
+  94  4gQmDd        4gQmDd           ✅      0.000
+  95  4keqTE        4keqTE           ✅      0.000
+  96  4kmqaZ        4kmqaZ           ✅      0.000
+  97  4krD          4krD             ✅      0.000
+  98  4mdNkQ        4mdNkQ           ✅      0.000
+  99  4mdU          4mdU             ✅      0.000
+ 100  4mt4k         4mt4k            ✅      0.000
+ 101  4nR7          4nR7             ✅      0.000
+ 102  4na4          4na4             ✅      0.000
+ 103  4nmNE         4nmNE            ✅      0.000
+ 104  4qTL9         4qTL9            ✅      0.000
+ 105  4tGd          4tGd             ✅      0.000
+ 106  4tPU          4tPU             ✅      0.000
+ 107  4uFM7u        4uFM7u           ✅      0.000
+ 108  63PN          63PN             ✅      0.000
+ 109  644Y          644Y             ✅      0.000
+ 110  67=U          67=U             ✅      0.000
+ 111  67bra         67bra            ✅      0.000
+ 112  67fmb         67fmb            ✅      0.000
+ 113  6=4rr         6=4rr            ✅      0.000
+ 114  6@L3          6@L3             ✅      0.000
+ 115  6@dtN         6@dtN            ✅      0.000
+ 116  6DKg          6DKg             ✅      0.000
+ 117  6Df@          6Df@             ✅      0.000
+ 118  6EDRe         6EDRe            ✅      0.000
+ 119  6EgEk         6EgEk            ✅      0.000
+ 120  6EuKq         6EuKq            ✅      0.000
+ 121  6F6n          6F6n             ✅      0.000
+ 122  6Fa9t         6Fa9t            ✅      0.000
+ 123  6GWFqm        6GWFqm           ✅      0.000
+ 124  6H6XPX        6H6XPX           ✅      0.000
+ 125  6H@47U        6H@47U           ✅      0.000
+ 126  6HEYH         6HEYH            ✅      0.000
+ 127  6K4@3         6K4@3            ✅      0.000
+ 128  6K=D          6K=D             ✅      0.000
+ 129  6LdGd@        6LdGd@           ✅      0.000
+ 130  6LhPr         6LhPr            ✅      0.000
+ 131  6MKdUd        6MKdUd           ✅      0.000
+ 132  6MTfN4        6MTfN4           ✅      0.000
+ 133  6MUaV         6MUaV            ✅      0.000
+ 134  6NfRt9        6NfRt9           ✅      0.000
+ 135  6PFDa         6PFDa            ✅      0.000
+ 136  6PRnMr        6PRnMr           ✅      0.000
+ 137  6TTLVm        6TTLVm           ✅      0.000
+ 138  6TYfY4        6TYfY4           ✅      0.000
+ 139  6UY=Qm        6UY=Qm           ✅      0.000
+ 140  6WRgGe        6WRgGe           ✅      0.000
+ 141  6XbX          6XbX             ✅      0.000
+ 142  6Y=K          6Y=K             ✅      0.000
+ 143  6YdEq         6YdEq            ✅      0.000
+ 144  6akg          6akg             ✅      0.000
+ 145  6edQ          6edQ             ✅      0.000
+ 146  6era          6era             ✅      0.000
+ 147  6fN3          6fN3             ✅      0.000
+ 148  6fVQE         6fVQE            ✅      0.000
+ 149  6fnNRg        6fnNRg           ✅      0.000
+ 150  6fugnZ        6fugnZ           ✅      0.000
+ 151  6k9GZ         6k9GZ            ✅      0.000
+ 152  6kmJDL        6kmJDL           ✅      0.000
+ 153  6mYL          6mYL             ✅      0.000
+ 154  6nDPZk        6nDPZk           ✅      0.000
+ 155  6qV3U         6qV3U            ✅      0.000
+ 156  6r43ak        6r43ak           ✅      0.000
+ 157  6tLVa         6tLVa            ✅      0.000
+ 158  6trq          6trq             ✅      0.000
+ 159  6uRaM         6uRaM            ✅      0.000
+ 160  6uYX          6uYX             ✅      0.000
+ 161  73E6JL        73E6JL           ✅      0.000
+ 162  73aGQ         73aGQ            ✅      0.000
+ 163  74aPX         74aPX            ✅      0.000
+ 164  74gY          74gY             ✅      0.000
+ 165  774gUK        774gUK           ✅      0.000
+ 166  77dT          77dT             ✅      0.000
+ 167  77q6E7        77q6E7           ✅      0.000
+ 168  7=QG          7=QG             ✅      0.000
+ 169  7DW9q         7DW9q            ✅      0.000
+ 170  7EKDm         7EKDm            ✅      0.000
+ 171  7EkK          7EkK             ✅      0.000
+ 172  7EkrFa        7EkrFra          ❌      0.167
+ 173  7F@DnR        7F@DnR           ✅      0.000
+ 174  7FTN          7FTN             ✅      0.000
+ 175  7FnL          7FnL             ✅      0.000
+ 176  7JeXK         7JeXK            ✅      0.000
+ 177  7Jh67n        7Jh67n           ✅      0.000
+ 178  7JqT          7JqT             ✅      0.000
+ 179  7KT7b         7KT7b            ✅      0.000
+ 180  7KdMK         7KdMK            ✅      0.000
+ 181  7N7nt         7N7nt            ✅      0.000
+ 182  7P9k          7P9k             ✅      0.000
+ 183  7PUND         7PUND            ✅      0.000
+ 184  7PdXY         7PdXY            ✅      0.000
+ 185  7R9bH         7R9bH            ✅      0.000
+ 186  7RfNb         7RfNb            ✅      0.000
+ 187  7XKKZm        7XKKZm           ✅      0.000
+ 188  7YGuVL        7YGuVL           ✅      0.000
+ 189  7aNPP         7aNPP            ✅      0.000
+ 190  7aeJnZ        7aeJnZ           ✅      0.000
+ 191  7ahe          7ahe             ✅      0.000
+ 192  7amUmF        7amUmF           ✅      0.000
+ 193  7bH4          7bH4             ✅      0.000
+ 194  7bH43         7bH43            ✅      0.000
+ 195  7bYH7k        7bYH7k           ✅      0.000
+ 196  7dF@          7dF@             ✅      0.000
+ 197  7dVV          7dVV             ✅      0.000
+ 198  7eHLW         7eHLW            ✅      0.000
+ 199  7eQfT         7eQfT            ✅      0.000
+ 200  7eZJNV        7eZJNV           ✅      0.000
+ 201  7f6RqQ        7f6RqQ           ✅      0.000
+ 202  7f@q          7f@q             ✅      0.000
+ 203  7fTY6         7fTY6            ✅      0.000
+ 204  7gMJe         7gMJe            ✅      0.000
+ 205  7gVM          7gVM             ✅      0.000
+ 206  7hbbYP        7hbbYP           ✅      0.000
+ 207  7hg4GF        7hg4GF           ✅      0.000
+ 208  7mMJUu        7mMJUu           ✅      0.000
+ 209  7nf6tu        7nf6tu           ✅      0.000
+ 210  7nk@          7nk@             ✅      0.000
+ 211  7nqMgG        7nqMgG           ✅      0.000
+ 212  7nqh          7nqh             ✅      0.000
+ 213  7nrK6q        7nrK6q           ✅      0.000
+ 214  7qnYY         7qnYY            ✅      0.000
+ 215  7r93u         7r93u            ✅      0.000
+ 216  7r=t          7r=t             ✅      0.000
+ 217  7tGe          7tGe             ✅      0.000
+ 218  7tkR          7tkR             ✅      0.000
+ 219  7tke          7tke             ✅      0.000
+ 220  94N3XE        94N3XE           ✅      0.000
+ 221  94rfhN        94rfhN           ✅      0.000
+ 222  977KFe        977KFe           ✅      0.000
+ 223  979g          979g             ✅      0.000
+ 224  99G=          99G=             ✅      0.000
+ 225  9=9M@Q        9=9M@Q           ✅      0.000
+ 226  9=@KN         9=@KN            ✅      0.000
+ 227  9D74k         9D74k            ✅      0.000
+ 228  9DQ3DX        9DQ3DX           ✅      0.000
+ 229  9EGG          9EGG             ✅      0.000
+ 230  9GXLN         9GXLN            ✅      0.000
+ 231  9Gk=b         9Gk=b            ✅      0.000
+ 232  9GtgUn        9GtgUn           ✅      0.000
+ 233  9H9uF         9H9uF            ✅      0.000
+ 234  9J@X          9J@X             ✅      0.000
+ 235  9JGY          9JGY             ✅      0.000
+ 236  9Jet          9Jet             ✅      0.000
+ 237  9Jq7          9Jq7             ✅      0.000
+ 238  9Kkt          9Kkt             ✅      0.000
+ 239  9L6Krn        9L6Krn           ✅      0.000
+ 240  9NY3nT        9NY3nT           ✅      0.000
+ 241  9Nakkg        9Nakkg           ✅      0.000
+ 242  9PHHR         9PHHR            ✅      0.000
+ 243  9PLb3         9PLb3            ✅      0.000
+ 244  9PU6          9PU6             ✅      0.000
+ 245  9QqU          9QqU             ✅      0.000
+ 246  9RZUg         9RZUg            ✅      0.000
+ 247  9RqJ          9RqJ             ✅      0.000
+ 248  9T@tdJ        9T@tdJ           ✅      0.000
+ 249  9THq          9THq             ✅      0.000
+ 250  9TrJu         9TrJu            ✅      0.000
+ 251  9UQMXr        9UQMXr           ✅      0.000
+ 252  9Uh3Mn        9Uh3Mn           ✅      0.000
+ 253  9VNHu         9VNHu            ✅      0.000
+ 254  9WM9J         9WM9J            ✅      0.000
+ 255  9Y3fM         9Y3fM            ✅      0.000
+ 256  9Y9t          9Y9t             ✅      0.000
+ 257  9YJX=         9YJX=            ✅      0.000
+ 258  9YQLm=        9YQLm=           ✅      0.000
+ 259  9YQf          9YQf             ✅      0.000
+ 260  9ZtU          9ZtU             ✅      0.000
+ 261  9eDKaD        9eDKaD           ✅      0.000
+ 262  9eGERH        9eGERH           ✅      0.000
+ 263  9eXHT         9eXHT            ✅      0.000
+ 264  9eZL          9eZL             ✅      0.000
+ 265  9he7F         9he7F            ✅      0.000
+ 266  9huuq         9huuq            ✅      0.000
+ 267  9kanaJ        9kanaJ           ✅      0.000
+ 268  9kmh          9kmh             ✅      0.000
+ 269  9krk          9krkk            ❌      0.250
+ 270  9mhP          9mhP             ✅      0.000
+ 271  9nY@N         9nY@N            ✅      0.000
+ 272  9ngPb         9ngPb            ✅      0.000
+ 273  9t9D=g        9t9D=g           ✅      0.000
+ 274  9uY9          9uY9             ✅      0.000
+ 275  =4@3          =4@3             ✅      0.000
+ 276  =4ZKQ         =4ZKQ            ✅      0.000
+ 277  =64@D         =64@D            ✅      0.000
+ 278  =76DNN        =76DNN           ✅      0.000
+ 279  =7JnW         =7JnW            ✅      0.000
+ 280  =7k4N         =7k4N            ✅      0.000
+ 281  =9nqTR        =9nqTR           ✅      0.000
+ 282  =9vtd         =9vtd            ✅      0.000
+ 283  =@VL6         =@VL6            ✅      0.000
+ 284  =@t6Vk        =@t6Vk           ✅      0.000
+ 285  =DqXYd        =DqXYd           ✅      0.000
+ 286  =E4qD         =E4qD            ✅      0.000
+ 287  =Fk4ZP        =Fk4ZP           ✅      0.000
+ 288  =FnGu         =FnGu            ✅      0.000
+ 289  =GG4uY        =GG4uY           ✅      0.000
+ 290  =Gbf          =Gbf             ✅      0.000
+ 291  =HeM          =HeM             ✅      0.000
+ 292  =Hrnrf        =Hrnrf           ✅      0.000
+ 293  =LJ3uE        =LJ3uE           ✅      0.000
+ 294  =Lbkq         =Lbkq            ✅      0.000
+ 295  =LdnE         =LdnE            ✅      0.000
+ 296  =Mg7Z         =Mg7Z            ✅      0.000
+ 297  =MhH          =MhH             ✅      0.000
+ 298  =MhQH         =MhQH            ✅      0.000
+ 299  =MnN          =MnN             ✅      0.000
+ 300  =NPTK         =NPTK            ✅      0.000
+ 301  =Nrtd         =Nrtd            ✅      0.000
+ 302  =NtG          =NtG             ✅      0.000
+ 303  =PbKN         =PbKN            ✅      0.000
+ 304  =PbM          =PbM             ✅      0.000
+ 305  =Q=a4t        =Q=a4t           ✅      0.000
+ 306  =QDT          =QDT             ✅      0.000
+ 307  =QPZ          =QPZ             ✅      0.000
+ 308  =R@kr         =R@kr            ✅      0.000
+ 309  =U3LkJ        =U3LkJ           ✅      0.000
+ 310  =YQHn         =YQHn            ✅      0.000
+ 311  =Yek          =Yek             ✅      0.000
+ 312  =Ym7          =Ym7             ✅      0.000
+ 313  =Z7=N         =Z7=N            ✅      0.000
+ 314  =aJQrZ        =aJQrZ           ✅      0.000
+ 315  =aQg3         =aQg3            ✅      0.000
+ 316  =bKL          =bKL             ✅      0.000
+ 317  =dPkJ         =dPkJ            ✅      0.000
+ 318  =dRd          =dRd             ✅      0.000
+ 319  =daYTd        =daYTd           ✅      0.000
+ 320  =dt=Nh        =dt=Nh           ✅      0.000
+ 321  =eEk@         =eEk@            ✅      0.000
+ 322  =ermL         =ermL            ✅      0.000
+ 323  =f4G          =f4G             ✅      0.000
+ 324  =fP=m         =fP=m            ✅      0.000
+ 325  =g9V@         =g9V@            ✅      0.000
+ 326  =huF          =huF             ✅      0.000
+ 327  =k7nHh        =k7nHh           ✅      0.000
+ 328  =kZFt         =kZft            ❌      0.200
+ 329  =nMW          =nMW             ✅      0.000
+ 330  =nhQL         =nhQL            ✅      0.000
+ 331  =q7KK         =q7KkK           ❌      0.200
+ 332  =qm3          =qm3             ✅      0.000
+ 333  =rfb=X        =rfb=X           ✅      0.000
+ 334  =tFZ          =tFZ             ✅      0.000
+ 335  @46MF         @46MF            ✅      0.000
+ 336  @47u7         @47u7            ✅      0.000
+ 337  @4F@@Y        @4F@@Y           ✅      0.000
+ 338  @4RQ@g        @4RQ@g           ✅      0.000
+ 339  @73qd=        @73qd=           ✅      0.000
+ 340  @9XhTg        @9XhTg           ✅      0.000
+ 341  @9mUt         @9mUt            ✅      0.000
+ 342  @9uhTb        @9uhTb           ✅      0.000
+ 343  @=6Nh3        @=6Nh3           ✅      0.000
+ 344  @=FWJ         @=FWJ            ✅      0.000
+ 345  @@XWaq        @@XWaq           ✅      0.000
+ 346  @E3=          @E3=             ✅      0.000
+ 347  @ETe          @ETe             ✅      0.000
+ 348  @F34FU        @F34FU           ✅      0.000
+ 349  @GgJ          @GgJ             ✅      0.000
+ 350  @GnkVZ        @GnkVZ           ✅      0.000
+ 351  @GrQab        @GrQab           ✅      0.000
+ 352  @JQtP         @JQtP            ✅      0.000
+ 353  @JV7          @JV7             ✅      0.000
+ 354  @LUeM         @LUeM            ✅      0.000
+ 355  @Qfm          @Qfnm            ❌      0.250
+ 356  @T3WMN        @T3WMN           ✅      0.000
+ 357  @VXDm         @VXDm            ✅      0.000
+ 358  @WXnqu        @WXnqu           ✅      0.000
+ 359  @WnR          @WnR             ✅      0.000
+ 360  @Wurnf        @Wurnf           ✅      0.000
+ 361  @X@Hg         @X@Hg            ✅      0.000
+ 362  @XNZY         @XNZY            ✅      0.000
+ 363  @XWr          @XWr             ✅      0.000
+ 364  @XXknG        @XXknG           ✅      0.000
+ 365  @Xaug         @Xaug            ✅      0.000
+ 366  @YgF          @YgF             ✅      0.000
+ 367  @Z@Re         @Z@Re            ✅      0.000
+ 368  @bt3D         @bt3D            ✅      0.000
+ 369  @dumNa        @dumNa           ✅      0.000
+ 370  @f64V         @f64V            ✅      0.000
+ 371  @fDH          @fDH             ✅      0.000
+ 372  @ftkW         @ftkW            ✅      0.000
+ 373  @gK6Lq        @gK6Lq           ✅      0.000
+ 374  @gae          @gae             ✅      0.000
+ 375  @ggg          @ggg             ✅      0.000
+ 376  @kJ9          @kJ9             ✅      0.000
+ 377  @kYG          @kYG             ✅      0.000
+ 378  @nRtf         @nRtf            ✅      0.000
+ 379  @neTPZ        @neTPZ           ✅      0.000
+ 380  @qbut3        @qbut3           ✅      0.000
+ 381  @rk3U         @rk3U            ✅      0.000
+ 382  @t93VZ        @t93VZ           ✅      0.000
+ 383  @t=Q          @t=Q             ✅      0.000
+ 384  @tJDmV        @tJDmV           ✅      0.000
+ 385  @tW=f         @tW=f            ✅      0.000
+ 386  @tnZ          @tnZ             ✅      0.000
+ 387  @uGNX         @uGNX            ✅      0.000
+ 388  @uuYa         @uuYa            ✅      0.000
+ 389  D4GhPk        D4GhPk           ✅      0.000
+ 390  D4Lg          D4Lg             ✅      0.000
+ 391  D6qa          D6qa             ✅      0.000
+ 392  D7Q@u         D7Q@u            ✅      0.000
+ 393  D7UP          D7UP             ✅      0.000
+ 394  D7uhq         D7uhq            ✅      0.000
+ 395  D9rNL         D9rNL            ✅      0.000
+ 396  D=YTLu        D=YTLu           ✅      0.000
+ 397  D@MVG         D@MVG            ✅      0.000
+ 398  D@k7          D@k7             ✅      0.000
+ 399  DD@bK         DD@bK            ✅      0.000
+ 400  DDnhg         DDnhg            ✅      0.000
+ 401  DDuTE         DDuTE            ✅      0.000
+ 402  DEDurU        DEDurU           ✅      0.000
+ 403  DGKE63        DGKE63           ✅      0.000
+ 404  DJXf          DJXf             ✅      0.000
+ 405  DK7QY         DK7QY            ✅      0.000
+ 406  DKTWGe        DKTWGe           ✅      0.000
+ 407  DL4tgG        DL4tgG           ✅      0.000
+ 408  DM7f          DM7f             ✅      0.000
+ 409  DMQJU         DMQJU            ✅      0.000
+ 410  DMhZmm        DMhZmm           ✅      0.000
+ 411  DNX3          DNX3             ✅      0.000
+ 412  DNeG          DNeG             ✅      0.000
+ 413  DPYnq7        DPYnq7           ✅      0.000
+ 414  DQ=kRb        DQ=kRb           ✅      0.000
+ 415  DR4rh         DR4rh            ✅      0.000
+ 416  DTk44         DTk44            ✅      0.000
+ 417  DUfePT        DUfePT           ✅      0.000
+ 418  DVTV          DVTV             ✅      0.000
+ 419  DW7Wf         DW7Wf            ✅      0.000
+ 420  DWJPE         DWJPE            ✅      0.000
+ 421  DWZbh6        DWZbh6           ✅      0.000
+ 422  DY@hZ         DY@hZ            ✅      0.000
+ 423  DYMT@G        DYMT@G           ✅      0.000
+ 424  DbJkG         DbJkG            ✅      0.000
+ 425  DdXqT=        DdXqT=           ✅      0.000
+ 426  Ddb7Mt        Ddb7Mt           ✅      0.000
+ 427  DdrkF=        DdrkF=           ✅      0.000
+ 428  De9WLq        De9WLq           ✅      0.000
+ 429  DeVDaE        DeVDaE           ✅      0.000
+ 430  DeerF         DeerF            ✅      0.000
+ 431  Demt9N        Demt9N           ✅      0.000
+ 432  Dg67F         Dg67F            ✅      0.000
+ 433  DgL3          DgL3             ✅      0.000
+ 434  DgYg          DgYg             ✅      0.000
+ 435  Dhnku         Dhnku            ✅      0.000
+ 436  DkeGu6        DkeGu6           ✅      0.000
+ 437  Dl@R4         Dl@R4            ✅      0.000
+ 438  DmM9R3        DmM9R3           ✅      0.000
+ 439  DnG@          DnG@             ✅      0.000
+ 440  DnQkNQ        DnQkNQ           ✅      0.000
+ 441  DnZ3uW        DnZ3uW           ✅      0.000
+ 442  DrbYG         DrbYG            ✅      0.000
+ 443  DtDM          DtDM             ✅      0.000
+ 444  DtabE         DtabE            ✅      0.000
+ 445  Du@bm         Du@bm            ✅      0.000
+ 446  DuDZh         DuDZh            ✅      0.000
+ 447  DuF7          DuF7             ✅      0.000
+ 448  DuJ6M         DuJ6M            ✅      0.000
+ 449  DuNV          DuNV             ✅      0.000
+ 450  E3J@          E3J@             ✅      0.000
+ 451  E3KX          E3KX             ✅      0.000
+ 452  E3RgW         E3RgW            ✅      0.000
+ 453  E3Yq          E3Yqq            ❌      0.250
+ 454  E3bM          E3bM             ✅      0.000
+ 455  E6eEu         E6eEu            ✅      0.000
+ 456  E73EQ9        E73EQ9           ✅      0.000
+ 457  E7b7          E7b7             ✅      0.000
+ 458  E=Ggt         E=Ggt            ✅      0.000
+ 459  E=WJf         E=WJf            ✅      0.000
+ 460  E@Md          E@Md             ✅      0.000
+ 461  E@WPQ         E@WPQ            ✅      0.000
+ 462  E@XTYW        E@XTYW           ✅      0.000
+ 463  E@Zb          E@Zb             ✅      0.000
+ 464  EDMgmE        EDMgmE           ✅      0.000
+ 465  EDr@Qd        EDr@Qd           ✅      0.000
+ 466  EEQbX         EEQbX            ✅      0.000
+ 467  EFT7          EFT7             ✅      0.000
+ 468  EHQED         EHQED            ✅      0.000
+ 469  EHhrbM        EHhrbM           ✅      0.000
+ 470  EJ=7          EJ=7             ✅      0.000
+ 471  EKnGh         EKnGh            ✅      0.000
+ 472  ELVa          ELVa             ✅      0.000
+ 473  EMmaP         EMmaP            ✅      0.000
+ 474  EPub          EPub             ✅      0.000
+ 475  EQEYM         EQEYM            ✅      0.000
+ 476  EQaR          EQaR             ✅      0.000
+ 477  EQgqD         EQgqD            ✅      0.000
+ 478  ER=UR         ER=UR            ✅      0.000
+ 479  EThHF         EThHF            ✅      0.000
+ 480  EUM=P         EUM=P            ✅      0.000
+ 481  EUMUY4        EUMUY4           ✅      0.000
+ 482  EVgk          EVgk             ✅      0.000
+ 483  EVmLT         EVmLT            ✅      0.000
+ 484  EVtuLX        EVtuLX           ✅      0.000
+ 485  EWGPGU        EWGPGU           ✅      0.000
+ 486  EWNk          EWNk             ✅      0.000
+ 487  EWet          EWet             ✅      0.000
+ 488  EXYd          eXYd             ❌      0.250
+ 489  EZH7          EZH7             ✅      0.000
+ 490  EZRh          EZRh             ✅      0.000
+ 491  EZtf          EZtf             ✅      0.000
+ 492  EaUt          EaUt             ✅      0.000
+ 493  Eb@Hkr        Eb@Hkr           ✅      0.000
+ 494  EdV9KY        EdV9KY           ✅      0.000
+ 495  EduDT         EduDT            ✅      0.000
+ 496  Ee63          Ee63             ✅      0.000
+ 497  EeKD          EeKD             ✅      0.000
+ 498  Efg@f         Efg@f            ✅      0.000
+ 499  EgePfQ        EgePfQ           ✅      0.000
+ 500  EhHqf         EhHqf            ✅      0.000
+ 501  EhY9G         EhY9G            ✅      0.000
+ 502  EhY=          EhY=             ✅      0.000
+ 503  EkVU          EkVU             ✅      0.000
+ 504  Ekreh         Ekreh            ✅      0.000
+ 505  Emr4          Emr4             ✅      0.000
+ 506  EnkY7Q        EnkY7Q           ✅      0.000
+ 507  Eqqh          Eqqh             ✅      0.000
+ 508  Er4GR         Er4GR            ✅      0.000
+ 509  EraHUU        EraHUU           ✅      0.000
+ 510  EuMfRV        EuMfRV           ✅      0.000
+ 511  EuXtL         EuXtL            ✅      0.000
+ 512  F3nD          F3nD             ✅      0.000
+ 513  F4kdVX        F4kdVX           ✅      0.000
+ 514  F9uDV         F9uDV            ✅      0.000
+ 515  F@@r4         F@@r4            ✅      0.000
+ 516  FE@QTb        FE@QTb           ✅      0.000
+ 517  FEL4          FEL4             ✅      0.000
+ 518  FEfTn         FEfTn            ✅      0.000
+ 519  FEt3b         FEt3b            ✅      0.000
+ 520  FFRV          FFRV             ✅      0.000
+ 521  FG97          FG97             ✅      0.000
+ 522  FJE=          FJE=             ✅      0.000
+ 523  FKbXt         FKbXt            ✅      0.000
+ 524  FKekNJ        FKekNJ           ✅      0.000
+ 525  FKuhb         FKuhb            ✅      0.000
+ 526  FLXRu         FLXRu            ✅      0.000
+ 527  FLuKq         FLuKq            ✅      0.000
+ 528  FM36g=        FM36g=           ✅      0.000
+ 529  FM7a          FM7a             ✅      0.000
+ 530  FMu9u         FMu9Uu           ❌      0.200
+ 531  FNahD         FNahD            ✅      0.000
+ 532  FP3M          FP3W             ❌      0.250
+ 533  FPg4          FPg4             ✅      0.000
+ 534  FQEEDH        FQEEDH           ✅      0.000
+ 535  FTG9          FTG9             ✅      0.000
+ 536  FTgqKZ        FTgqKZ           ✅      0.000
+ 537  FUg93f        FUg93f           ✅      0.000
+ 538  FVTV7f        FVTV7f           ✅      0.000
+ 539  FVmR          FVmR             ✅      0.000
+ 540  FVmn7t        FVmn7t           ✅      0.000
+ 541  FWVZZ9        FWVZZ9           ✅      0.000
+ 542  FY6NEP        FY6NEP           ✅      0.000
+ 543  FYgG          FYgG             ✅      0.000
+ 544  FYmTK         FYmTK            ✅      0.000
+ 545  FZ@X=X        FZ@X=X           ✅      0.000
+ 546  FZJ3          FZJ3             ✅      0.000
+ 547  FaEL7         FaEL7            ✅      0.000
+ 548  FaZdr         FaZdr            ✅      0.000
+ 549  FbUX          FbUX             ✅      0.000
+ 550  FbqRG         FbqRG            ✅      0.000
+ 551  FffmK         FffmK            ✅      0.000
+ 552  FkUYk         FkUYk            ✅      0.000
+ 553  FmKFk         FmKFk            ✅      0.000
+ 554  FnqGq         FnqGq            ✅      0.000
+ 555  FqU7          FqU7             ✅      0.000
+ 556  FqUuK         FqUuK            ✅      0.000
+ 557  FrXaWE        FrXaWE           ✅      0.000
+ 558  FtqHq         FtqHq            ✅      0.000
+ 559  G33Eg         G3Eg             ❌      0.200
+ 560  G4F6Jb        G4F6Jb           ✅      0.000
+ 561  G6eTL         G6eTL            ✅      0.000
+ 562  G6fLV         G6fLV            ✅      0.000
+ 563  G7Q=d         G7Q=d            ✅      0.000
+ 564  G9JQFH        G9JQFH           ✅      0.000
+ 565  G9UGEr        G9UGEr           ✅      0.000
+ 566  G9WUd         G9WUd            ✅      0.000
+ 567  G=Q6kh        G=Q6kh           ✅      0.000
+ 568  G=Qk6g        G=Qk6g           ✅      0.000
+ 569  GDRLD         GDRLD            ✅      0.000
+ 570  GDW6HN        GDW6HN           ✅      0.000
+ 571  GE3m          GE3m             ✅      0.000
+ 572  GFNh          GFNh             ✅      0.000
+ 573  GFfYhm        GFfYhm           ✅      0.000
+ 574  GH3dgM        GH3dgM           ✅      0.000
+ 575  GHEf          GHEf             ✅      0.000
+ 576  GKQQtU        GKQQtU           ✅      0.000
+ 577  GL3T          GL3T             ✅      0.000
+ 578  GL3a9b        GL3a9b           ✅      0.000
+ 579  GLf94L        GLf94L           ✅      0.000
+ 580  GM3G          GM3G             ✅      0.000
+ 581  GM79nR        GM79nR           ✅      0.000
+ 582  GPmuR         GPmuR            ✅      0.000
+ 583  GQ@e=         GQ@e=            ✅      0.000
+ 584  GQR7Kr        GQR7Kr           ✅      0.000
+ 585  GRLNY         GRLNY            ✅      0.000
+ 586  GTZG          GTZG             ✅      0.000
+ 587  GU@m          GU@m             ✅      0.000
+ 588  GUemEh        GUemEh           ✅      0.000
+ 589  GUqP          GUqP             ✅      0.000
+ 590  GVXuW         GVXuW            ✅      0.000
+ 591  GW79          GW79             ✅      0.000
+ 592  GWPU          GWPU             ✅      0.000
+ 593  GWqDR@        GWqDR@           ✅      0.000
+ 594  GX6DWt        GX6DWt           ✅      0.000
+ 595  GXPF          GXPF             ✅      0.000
+ 596  GY4r          GY4r             ✅      0.000
+ 597  GYPfL         GYPfL            ✅      0.000
+ 598  GZMtQL        GZMtQL           ✅      0.000
+ 599  GZWrE         GZWrE            ✅      0.000
+ 600  Ga46@V        Ga46@V           ✅      0.000
+ 601  GdVaFm        GdVaFm           ✅      0.000
+ 602  GhDUg         GhDUg            ✅      0.000
+ 603  GhPG3g        GhPG3g           ✅      0.000
+ 604  GkFdVY        GkFdVY           ✅      0.000
+ 605  GkLfY         GkLfY            ✅      0.000
+ 606  GkPH          GkPH             ✅      0.000
+ 607  GkVt          GkVt             ✅      0.000
+ 608  Gm73          Gm73             ✅      0.000
+ 609  GmUq          GmUq             ✅      0.000
+ 610  GnEHH         GnEHH            ✅      0.000
+ 611  GnKdZR        GnKdZR           ✅      0.000
+ 612  Gq=Eb         Gq=Eb            ✅      0.000
+ 613  Gq@gT         Gq@g=            ❌      0.200
+ 614  GqdYt         GqdYt            ✅      0.000
+ 615  GuW@a         GuW@a            ✅      0.000
+ 616  H33H          H33H             ✅      0.000
+ 617  H3qR          H3qR             ✅      0.000
+ 618  H3uKaU        H3uKaU           ✅      0.000
+ 619  H4Lk          H4Lk             ✅      0.000
+ 620  H6@De         H6@De            ✅      0.000
+ 621  H9UQN         H9UQN            ✅      0.000
+ 622  H9V=b         H9V=b            ✅      0.000
+ 623  H=XkJ         H=XkJ            ✅      0.000
+ 624  H@3n          H@3n             ✅      0.000
+ 625  HD93          HD93             ✅      0.000
+ 626  HE9UKe        HE9UKe           ✅      0.000
+ 627  HFa6          HFa6             ✅      0.000
+ 628  HHdQmd        HHdQmd           ✅      0.000
+ 629  HJrQPk        HJrQPk           ✅      0.000
+ 630  HKaG4         HKaG4            ✅      0.000
+ 631  HLr3          HLr3             ✅      0.000
+ 632  HMJ7ff        HMJ7ff           ✅      0.000
+ 633  HN4D          HN4D             ✅      0.000
+ 634  HN@M          HN@M             ✅      0.000
+ 635  HPTRe         HPTRe            ✅      0.000
+ 636  HPkH          HPkH             ✅      0.000
+ 637  HTHgH         HTHgH            ✅      0.000
+ 638  HWDW4         HWDW4            ✅      0.000
+ 639  HWUQ=         HWUQ=            ✅      0.000
+ 640  HWXnTN        HWXnTN           ✅      0.000
+ 641  HX77          HX77             ✅      0.000
+ 642  HXGq          HXGq             ✅      0.000
+ 643  HZ4d          HZ4d             ✅      0.000
+ 644  HZrK9         HZrK9            ✅      0.000
+ 645  HdUmWH        HdUmWH           ✅      0.000
+ 646  Hda=NK        Hda=NK           ✅      0.000
+ 647  HdmbZJ        HdmbZJ           ✅      0.000
+ 648  Hdr7nM        Hdr7nM           ✅      0.000
+ 649  HeVFWW        HeVFWW           ✅      0.000
+ 650  Hee@rH        Hee@rH           ✅      0.000
+ 651  Hf3Y=         Hf3Y=            ✅      0.000
+ 652  HfeQ          HfeQ             ✅      0.000
+ 653  HgV6LF        HgV6LF           ✅      0.000
+ 654  HhGuKf        HhGuKf           ✅      0.000
+ 655  HhLMf         HhLMf            ✅      0.000
+ 656  HkGX          HkGZX            ❌      0.250
+ 657  Hmftt         Hmftt            ✅      0.000
+ 658  Hnrn          Hnrn             ✅      0.000
+ 659  HqkDm         HqkDm            ✅      0.000
+ 660  Hr9NF         Hr9NF            ✅      0.000
+ 661  HtKHGq        HtKHGq           ✅      0.000
+ 662  HuNG          HuNG             ✅      0.000
+ 663  J3Kh          J3Khr            ❌      0.250
+ 664  J6FubV        J6FubV           ✅      0.000
+ 665  J7T=Q         J7T=Q            ✅      0.000
+ 666  J7rrWK        J7rrWK           ✅      0.000
+ 667  J9XUKt        J9XUKt           ✅      0.000
+ 668  J9q4UW        J9q4UW           ✅      0.000
+ 669  J=hPD         J=hPD            ✅      0.000
+ 670  J@DeKX        J@DeKX           ✅      0.000
+ 671  JE@mZ         JE@mZ            ✅      0.000
+ 672  JEYe3q        JEYe3q           ✅      0.000
+ 673  JEkKJ         JEkKJ            ✅      0.000
+ 674  JJVa          JJVa             ✅      0.000
+ 675  JJWVV         JJWVV            ✅      0.000
+ 676  JLFmF         JLFmF            ✅      0.000
+ 677  JMELU         JMELU            ✅      0.000
+ 678  JMbF@F        JMbF@F           ✅      0.000
+ 679  JNRD6Q        JNRD6Q           ✅      0.000
+ 680  JQTV          JQTV             ✅      0.000
+ 681  JQnQr6        JQnQr6           ✅      0.000
+ 682  JRXae         JRXae            ✅      0.000
+ 683  JUUhW         JUUhW            ✅      0.000
+ 684  JVNE          JVNE             ✅      0.000
+ 685  JVf7N         JVf7N            ✅      0.000
+ 686  JWbVWK        JWbVWK           ✅      0.000
+ 687  JXWNn         JXWNn            ✅      0.000
+ 688  JYdXKk        JYdXKk           ✅      0.000
+ 689  JYeZ          JYeZ             ✅      0.000
+ 690  JYt9          JYt9             ✅      0.000
+ 691  JZXn6         JZXn6            ✅      0.000
+ 692  JZrQhX        JZrQhX           ✅      0.000
+ 693  JaGb          JaGb             ✅      0.000
+ 694  JaWa=V        JaWa=V           ✅      0.000
+ 695  JdtkM@        JdtkM@           ✅      0.000
+ 696  JeUWQ         JeUWQ            ✅      0.000
+ 697  Jf4h          Jf4h             ✅      0.000
+ 698  JfP4=         JfP4=            ✅      0.000
+ 699  Jg76          Jg76             ✅      0.000
+ 700  Jgda44        Jgda44           ✅      0.000
+ 701  Jgdh=t        Jgdh=t           ✅      0.000
+ 702  Jgf=e         Jgf=e            ✅      0.000
+ 703  JkYefP        JkYefPf          ❌      0.167
+ 704  JktXh         JktXh            ✅      0.000
+ 705  JmEY          JmEY             ✅      0.000
+ 706  JmLdk         JmLdk            ✅      0.000
+ 707  Jmb6n         Jmb6n            ✅      0.000
+ 708  Jn3KL         Jn3KL            ✅      0.000
+ 709  Jn6h          Jn6h             ✅      0.000
+ 710  JnTY          JnTY             ✅      0.000
+ 711  JnXW          JnXW             ✅      0.000
+ 712  JtFFV         JtFFV            ✅      0.000
+ 713  Ju7Xa         Ju7Xa            ✅      0.000
+ 714  Juk9          Juk9             ✅      0.000
+ 715  K33Q          K33Q             ✅      0.000
+ 716  K37Lhq        K37Lhq           ✅      0.000
+ 717  K3LmP         K3LmP            ✅      0.000
+ 718  K3e=          K3e=             ✅      0.000
+ 719  K4rEP         K4rEP            ✅      0.000
+ 720  K6hDQ         K6hDQ            ✅      0.000
+ 721  K9tR          K9tR             ✅      0.000
+ 722  K=3Qd         K=3Qd            ✅      0.000
+ 723  K@fbQ         K@fbQ            ✅      0.000
+ 724  KFDmmV        KFDmmV           ✅      0.000
+ 725  KFNkX         KFNkX            ✅      0.000
+ 726  KFuZ@         KFuZ@            ✅      0.000
+ 727  KGNF7         KGNF7            ✅      0.000
+ 728  KGbPq         KGbPq            ✅      0.000
+ 729  KGqf6         KGqf6            ✅      0.000
+ 730  KH7QUn        KH7QUn           ✅      0.000
+ 731  KH9TRZ        KH9TRZ           ✅      0.000
+ 732  KKgP=         KKgP=            ✅      0.000
+ 733  KKk@          KKk@             ✅      0.000
+ 734  KKtRe7        KKtRe7           ✅      0.000
+ 735  KL39mt        KL39mt           ✅      0.000
+ 736  KLF=          kLF=             ❌      0.250
+ 737  KMMYa         KMMYa            ✅      0.000
+ 738  KNDUu         KNDUu            ✅      0.000
+ 739  KNW7          KNW7             ✅      0.000
+ 740  KRf9R         KRf9R            ✅      0.000
+ 741  KVJP          KVJP             ✅      0.000
+ 742  KYk7R         KYk7R            ✅      0.000
+ 743  KZ@Hu6        KZ@Hu6           ✅      0.000
+ 744  KaEt          KaEt             ✅      0.000
+ 745  Kb9J          Kb9J             ✅      0.000
+ 746  KbPTgN        KbPTgN           ✅      0.000
+ 747  KbdXd         KbdXd            ✅      0.000
+ 748  KdK=t3        KdK=t3           ✅      0.000
+ 749  Ke=9g=        Ke=9g=           ✅      0.000
+ 750  KeaU          KeaU             ✅      0.000
+ 751  Kf@7          Kf@7             ✅      0.000
+ 752  KfJQ          KfJQ             ✅      0.000
+ 753  Kg64          Kg64             ✅      0.000
+ 754  KhT3          KhT3             ✅      0.000
+ 755  KkJNUP        KkJNUP           ✅      0.000
+ 756  KkqGu         KkqGu            ✅      0.000
+ 757  KnYdt         KnYdt            ✅      0.000
+ 758  Kq9YX (2)     Kq9YX            ❌      0.444
+ 759  Kq9YX         Kq9YX            ✅      0.000
+ 760  KqDHg         KqDHg            ✅      0.000
+ 761  KqgaK=        KqgaK=           ✅      0.000
+ 762  KtLa          KtLa             ✅      0.000
+ 763  KuVM          KuVM             ✅      0.000
+ 764  KudQ          kKudQ            ❌      0.250
+ 765  L34ZbW        L34ZbW           ✅      0.000
+ 766  L3tLQV        L3tLQV           ✅      0.000
+ 767  L46FV=        L46FV=           ✅      0.000
+ 768  L4Uara        L4Uara           ✅      0.000
+ 769  L6W3Tm        L6W3Tm           ✅      0.000
+ 770  L6rn          L6rn             ✅      0.000
+ 771  L7Dt          L7Dt             ✅      0.000
+ 772  L=VZGg        L=VZGg           ✅      0.000
+ 773  L=ZN          L=ZN             ✅      0.000
+ 774  L@6f          L@6f             ✅      0.000
+ 775  LDRb          LDRb             ✅      0.000
+ 776  LDmgmg        LDmgmg           ✅      0.000
+ 777  LFrbb         LFrbb            ✅      0.000
+ 778  LGt=N         LGt=N            ✅      0.000
+ 779  LH3R          LH3R             ✅      0.000
+ 780  LHRE          LHRE             ✅      0.000
+ 781  LJ=NL         LJ=NL            ✅      0.000
+ 782  LJFR          LJFR             ✅      0.000
+ 783  LLDK          LLDK             ✅      0.000
+ 784  LLYNk         LLYNk            ✅      0.000
+ 785  LPFQ3         LPFQ3            ✅      0.000
+ 786  LPed9V        LPed9V           ✅      0.000
+ 787  LQ3P          LQ3P             ✅      0.000
+ 788  LQ9Deg        LQ9Deg           ✅      0.000
+ 789  LQFQ          LQFQ             ✅      0.000
+ 790  LQYVg         LQYVg            ✅      0.000
+ 791  LRJJ          LRJJ             ✅      0.000
+ 792  LRbNrP        LRbNrP           ✅      0.000
+ 793  LTPkX         LTPkX            ✅      0.000
+ 794  LU3Ybq        LU3Ybq           ✅      0.000
+ 795  LWJka         LWJka            ✅      0.000
+ 796  LWeFq         LWeFq            ✅      0.000
+ 797  LXTb          LXTb             ✅      0.000
+ 798  LYFH          LYFH             ✅      0.000
+ 799  LYWJW         LYWJW            ✅      0.000
+ 800  LZXnPf        LZXnPf           ✅      0.000
+ 801  LZY4fe        LZY4fe           ✅      0.000
+ 802  La4fd         La4fd            ✅      0.000
+ 803  La@n@3        La@n@3           ✅      0.000
+ 804  LaRu7         LaRu7            ✅      0.000
+ 805  Lb7aQ         Lb7aQ            ✅      0.000
+ 806  LenUX         LenUX            ✅      0.000
+ 807  LeqD          LeqD             ✅      0.000
+ 808  LfbZ          LfbZ             ✅      0.000
+ 809  LgEYY=        LgEYY=           ✅      0.000
+ 810  LhnaKq        LhnaKq           ✅      0.000
+ 811  LkW=m         LkW=m            ✅      0.000
+ 812  LnhZn6        LnhZn6           ✅      0.000
+ 813  LqVb          LqVb             ✅      0.000
+ 814  Lqqmn         Lqqmnn           ❌      0.200
+ 815  LrL9          LrL9             ✅      0.000
+ 816  LrfdUn        LrfdUn           ✅      0.000
+ 817  LuqTr         LuqTr            ✅      0.000
+ 818  M3J=          M3J=             ✅      0.000
+ 819  M3LfT         M3LfT            ✅      0.000
+ 820  M7n9          M7n9             ✅      0.000
+ 821  M9Nmf         M9Nmf            ✅      0.000
+ 822  M=JttW        M=JttW           ✅      0.000
+ 823  M=W7W         M=W7W            ✅      0.000
+ 824  M@VQGa        M@VQGa           ✅      0.000
+ 825  MDHrtF        MDHrtF           ✅      0.000
+ 826  MDRM          MDRM             ✅      0.000
+ 827  MEgKF7        MEgKF7           ✅      0.000
+ 828  MFRY77        MFRY77           ✅      0.000
+ 829  MFVQtF        MFVQtF           ✅      0.000
+ 830  MGbUr         MGbUr            ✅      0.000
+ 831  MJUmF         MJUmF            ✅      0.000
+ 832  MKFH@D        MKFH@D           ✅      0.000
+ 833  MKhem         MKhem            ✅      0.000
+ 834  MLuE          MLuE             ✅      0.000
+ 835  MMGV          MMGV             ✅      0.000
+ 836  MMKk@h        MMKk@h           ✅      0.000
+ 837  MNRRu         MNRRu            ✅      0.000
+ 838  MPZub         MPZub            ✅      0.000
+ 839  MR9=nt        MR9=nt           ✅      0.000
+ 840  MT3F          MT3F             ✅      0.000
+ 841  MVHq          MVHq             ✅      0.000
+ 842  MVJe          MVJe             ✅      0.000
+ 843  MW9H=         MW9H=            ✅      0.000
+ 844  MWEu          MWEu             ✅      0.000
+ 845  MWQd          MWQd             ✅      0.000
+ 846  MY6T6n        MY6T6n           ✅      0.000
+ 847  MYLHP         MYLHP            ✅      0.000
+ 848  MZb7g         MZb7g            ✅      0.000
+ 849  MaMX          MaMX             ✅      0.000
+ 850  MaMg          MaMg             ✅      0.000
+ 851  Me4Vuq        Me4Vuq           ✅      0.000
+ 852  Mf=Y4=        Mf=Y4=           ✅      0.000
+ 853  MfKFL7        MfKFL7           ✅      0.000
+ 854  MhDd          MhDd             ✅      0.000
+ 855  MkL=@         MkL=@            ✅      0.000
+ 856  MmFHrR        MmFHrR           ✅      0.000
+ 857  MqNM          MqNM             ✅      0.000
+ 858  MrWJnK        MrWJnK           ✅      0.000
+ 859  N3@aNN        N3@aNN           ✅      0.000
+ 860  N3KHr         N3KHr            ✅      0.000
+ 861  N3dR9D        N3dR9D           ✅      0.000
+ 862  N7H7          N7H7             ✅      0.000
+ 863  N=mQX7        N=mQX7           ✅      0.000
+ 864  N=nbZ         N=nbZ            ✅      0.000
+ 865  N=tbLE        N=tbLE           ✅      0.000
+ 866  NET9GY        NEFT9GY          ❌      0.167
+ 867  NEWkq         NEWkq            ✅      0.000
+ 868  NFGPH         NFGPH            ✅      0.000
+ 869  NFk7FK        NFk7FK           ✅      0.000
+ 870  NGF7qT        NGF7qT           ✅      0.000
+ 871  NGmmNu        NGmmNu           ✅      0.000
+ 872  NHqb          NHqb             ✅      0.000
+ 873  NJLYZ         NJLYZ            ✅      0.000
+ 874  NLKWU         NLKWU            ✅      0.000
+ 875  NLmLQ         NLmLQ            ✅      0.000
+ 876  NMfg          NMfg             ✅      0.000
+ 877  NNtH          NNtH             ✅      0.000
+ 878  NPYe4D        NPYe4D           ✅      0.000
+ 879  NQEer         NQEer            ✅      0.000
+ 880  NQKeX         NQKeX            ✅      0.000
+ 881  NRGrZ6        NRGrZ6           ✅      0.000
+ 882  NRfEg6        NRfEg6           ✅      0.000
+ 883  NTT@a         NTT@a            ✅      0.000
+ 884  NUf7me        NUf7me           ✅      0.000
+ 885  NV=aM         NV=aM            ✅      0.000
+ 886  NWU3          NWU3             ✅      0.000
+ 887  NXFta         NXFta            ✅      0.000
+ 888  NXMV          NXMV             ✅      0.000
+ 889  NXgd6b        NXgd6b           ✅      0.000
+ 890  NYEkh9        NYEkh9           ✅      0.000
+ 891  NYm9          NYm9             ✅      0.000
+ 892  NZUD          NZUD             ✅      0.000
+ 893  NZtFDV        NZtFDV           ✅      0.000
+ 894  Na3dD         Na3dD            ✅      0.000
+ 895  Naab          Naab             ✅      0.000
+ 896  Nb4eL         Nb4eL            ✅      0.000
+ 897  NdM9          NdM9             ✅      0.000
+ 898  Ndt@K         Ndt@K            ✅      0.000
+ 899  Ne=r          Ne=r             ✅      0.000
+ 900  NfHLu         NfHLu            ✅      0.000
+ 901  NfHngb        NfHngb           ✅      0.000
+ 902  NfbbYU        NfbbYU           ✅      0.000
+ 903  NftW7         NftW7            ✅      0.000
+ 904  Nh3qQ         Nh3qQ            ✅      0.000
+ 905  NhY9          NhY9             ✅      0.000
+ 906  NkGDJt        NkGDJt           ✅      0.000
+ 907  NkqDHh        NkqDHh           ✅      0.000
+ 908  NmUV=         NmUV=            ✅      0.000
+ 909  NmuYKr        NmuYKr           ✅      0.000
+ 910  NqDM          NqDM             ✅      0.000
+ 911  Nqr97         Nqr97            ✅      0.000
+ 912  Nr9gU         Nr9gU            ✅      0.000
+ 913  NrR96         NrR96            ✅      0.000
+ 914  NrnQYd        NrnQYd           ✅      0.000
+ 915  NrnYLh        NrnYLh           ✅      0.000
+ 916  Nt4KZ         Nt4KZ            ✅      0.000
+ 917  NutrNb        NutrNb           ✅      0.000
+ 918  P3QZrJ        P3QZrJ           ✅      0.000
+ 919  P3d@dM        P3d@dM           ✅      0.000
+ 920  P3eZgZ        P3eZgZ           ✅      0.000
+ 921  P3mMPG        P3mMPG           ✅      0.000
+ 922  P4LH          P4LH             ✅      0.000
+ 923  P4NtN         P4NtN            ✅      0.000
+ 924  P4e9          P4e9             ✅      0.000
+ 925  P6Vgb         P6Vgb            ✅      0.000
+ 926  P6bd7         P6bd7            ✅      0.000
+ 927  P9MHqD        P9MHqD           ✅      0.000
+ 928  P9dgaP        P9dgaP           ✅      0.000
+ 929  P=M7k         P=M7k            ✅      0.000
+ 930  P=bb7b        P=bb7b           ✅      0.000
+ 931  P=gktF        P=gktF           ✅      0.000
+ 932  P=qt9         P=qt9            ✅      0.000
+ 933  P@JN9r        P@JN9r           ✅      0.000
+ 934  PELVn         PELVn            ✅      0.000
+ 935  PEP6Dm        PEP6Dm           ✅      0.000
+ 936  PG39          PG39             ✅      0.000
+ 937  PGPZEM        PGPZEM           ✅      0.000
+ 938  PH4MkF        PH4MkF           ✅      0.000
+ 939  PHZ6          PHZ6             ✅      0.000
+ 940  PKDZT4        PKDZT4           ✅      0.000
+ 941  PLTk=         PLTk=            ✅      0.000
+ 942  PLkXHX        PLkXHX           ✅      0.000
+ 943  PLt4          PLt4             ✅      0.000
+ 944  PMPQQ         PMPQQ            ✅      0.000
+ 945  PMeR@b        PMeR@b           ✅      0.000
+ 946  PPdgf         PPdgf            ✅      0.000
+ 947  PQDPJ         PQDPJ            ✅      0.000
+ 948  PRFR          PRFR             ✅      0.000
+ 949  PRVX          PRVX             ✅      0.000
+ 950  PRe3EN        PRe3EN           ✅      0.000
+ 951  PTF3m         PTF3m            ✅      0.000
+ 952  PTGrV         PTGrV            ✅      0.000
+ 953  PTKr          PTKr             ✅      0.000
+ 954  PTR3J         PTR3J            ✅      0.000
+ 955  PUd@          PUd@             ✅      0.000
+ 956  PUuZ          PUuZ             ✅      0.000
+ 957  PVRXd         PVRXd            ✅      0.000
+ 958  PVg@q         PVg@q            ✅      0.000
+ 959  PVku          PVku             ✅      0.000
+ 960  PVma          PVma             ✅      0.000
+ 961  PW3qP         PW3qP            ✅      0.000
+ 962  PWum          PWum             ✅      0.000
+ 963  PXGWL         PXGWL            ✅      0.000
+ 964  PXZU6Q        PXZU6Q           ✅      0.000
+ 965  PXZn@         PXZn@            ✅      0.000
+ 966  PXbd          PXbd             ✅      0.000
+ 967  PZHf          PZHf             ✅      0.000
+ 968  PaEqE         PaEqE            ✅      0.000
+ 969  Pb4hJ@        Pb4hJ@           ✅      0.000
+ 970  Pbhn          Pbhn             ✅      0.000
+ 971  PbmVa         PbmVa            ✅      0.000
+ 972  PdJPaJ        PdJPaJ           ✅      0.000
+ 973  Pe6GK9        Pe6GK9           ✅      0.000
+ 974  PfU7r         PfU7r            ✅      0.000
+ 975  Pfn6          Pfn6             ✅      0.000
+ 976  PhLFV         PhLFV            ✅      0.000
+ 977  Phkq          Phkq             ✅      0.000
+ 978  PkDUe         PkDUe            ✅      0.000
+ 979  PmEFg         PmEFg            ✅      0.000
+ 980  PmWN          PmWN             ✅      0.000
+ 981  PmdrK9        PmdrK9           ✅      0.000
+ 982  Pq6YVD        Pq6YVD           ✅      0.000
+ 983  PrHU          PrHU             ✅      0.000
+ 984  PrfRWF        PrfRWF           ✅      0.000
+ 985  PrrU          PrrU             ✅      0.000
+ 986  PtWh          PtWh             ✅      0.000
+ 987  Pu@6R         Pu@6R            ✅      0.000
+ 988  Q3K49Y        Q3K49Y           ✅      0.000
+ 989  Q3eUL         Q3eUL            ✅      0.000
+ 990  Q4tYG         Q4tYG            ✅      0.000
+ 991  Q6VKu         Q6VKu            ✅      0.000
+ 992  Q6tkZP        Q6tkZP           ✅      0.000
+ 993  Q7XF          Q7XF             ✅      0.000
+ 994  Q7hb          Q7hb             ✅      0.000
+ 995  Q97Mt         Q97Mt            ✅      0.000
+ 996  Q9JaEr        Q9JaEr           ✅      0.000
+ 997  Q=36nZ        Q=36nZ           ✅      0.000
+ 998  Q=ZQD         Q=ZQD            ✅      0.000
+ 999  Q@3q          Q@3q             ✅      0.000
+1000  Q@Jnq         Q@Jnq            ✅      0.000
+1001  Q@Pd          Q@Pd             ✅      0.000
+1002  Q@rekn        Q@rekn           ✅      0.000
+1003  QER@m         QER@m            ✅      0.000
+1004  QEV@          QEV@             ✅      0.000
+1005  QJfPrn        QJfPrn           ✅      0.000
+1006  QJmRQ         QJmRQ            ✅      0.000
+1007  QK9GuY        QK9GuY           ✅      0.000
+1008  QKDV          QKDV             ✅      0.000
+1009  QKb=          QKb=             ✅      0.000
+1010  QKeu          QKeu             ✅      0.000
+1011  QLRMfr        QLRMfr           ✅      0.000
+1012  QNrH@a        QNrH@a           ✅      0.000
+1013  QNra4         QNra4            ✅      0.000
+1014  QRaW          QRaW             ✅      0.000
+1015  QTK7          QTK7             ✅      0.000
+1016  QURTnb        QURTnb           ✅      0.000
+1017  QVDR          QVDR             ✅      0.000
+1018  QVEQW         QVEQW            ✅      0.000
+1019  QVUW          QVUW             ✅      0.000
+1020  QWXbk         QWXbk            ✅      0.000
+1021  QXG@F         QXG@F            ✅      0.000
+1022  QXu6QY        QXu6QY           ✅      0.000
+1023  QYdE          QYdE             ✅      0.000
+1024  QZeYn         QZeYn            ✅      0.000
+1025  Qa37          Qa37             ✅      0.000
+1026  QaGg          QaGg             ✅      0.000
+1027  QaQe          QaQe             ✅      0.000
+1028  Qe=Z          Qe=Z             ✅      0.000
+1029  QeRd          QeRd             ✅      0.000
+1030  QfTe          QfTe             ✅      0.000
+1031  QfXd          QfXd             ✅      0.000
+1032  QgJELe        QgJELe           ✅      0.000
+1033  Qgne          Qgne             ✅      0.000
+1034  QhW=PJ        QhW=PJ           ✅      0.000
+1035  QhtTtb        QhtTtb           ✅      0.000
+1036  QkLMT         QkLMT            ✅      0.000
+1037  QkXmq         QkXmq            ✅      0.000
+1038  QmNRY         QmNRY            ✅      0.000
+1039  Qmrf          Qmrf             ✅      0.000
+1040  QneYTN        QneYTN           ✅      0.000
+1041  Qq7hZE        Qq7hZE           ✅      0.000
+1042  Qr66Ug        Qr66Ug           ✅      0.000
+1043  Qr7mRm        Qr7mRm           ✅      0.000
+1044  QtJeeL        QtJeeL           ✅      0.000
+1045  QufTaf        QufTaf           ✅      0.000
+1046  QuuYVU        QuuYVU           ✅      0.000
+1047  R3TeUd        R3TeUd           ✅      0.000
+1048  R3fmH4        R3fmH4           ✅      0.000
+1049  R47et7        R47et7           ✅      0.000
+1050  R47un6        R47un6           ✅      0.000
+1051  R6dDWr        R6dDWr           ✅      0.000
+1052  R6rng3        R6rng3           ✅      0.000
+1053  R7HTe4        R7HTe4           ✅      0.000
+1054  R9N@dg        R9N@dg           ✅      0.000
+1055  R@aX4u        R@aX4u           ✅      0.000
+1056  RDE6          RDE6             ✅      0.000
+1057  RDaZ          RDaZ             ✅      0.000
+1058  REaHDH        REaHDH           ✅      0.000
+1059  RF96          RF96             ✅      0.000
+1060  RFET          RFET             ✅      0.000
+1061  RFhTDL        RFhTDL           ✅      0.000
+1062  RH=u4         RH=u4            ✅      0.000
+1063  RHDrDD        RHDrDD           ✅      0.000
+1064  RHRGmL        RHRGmL           ✅      0.000
+1065  RHTg7         RHTg7            ✅      0.000
+1066  RJQk          RJQk             ✅      0.000
+1067  RJau6         RJau6b           ❌      0.200
+1068  RKV9          RKV9             ✅      0.000
+1069  RKW6          RKW6             ✅      0.000
+1070  RKbR@         RKbR@            ✅      0.000
+1071  RKtVm         RKtVm            ✅      0.000
+1072  RLGr          RLGr             ✅      0.000
+1073  RMtd          RMtd             ✅      0.000
+1074  RNtN6=        RNtN6=           ✅      0.000
+1075  RQGFr         RQGFr            ✅      0.000
+1076  RXWm          RXWm             ✅      0.000
+1077  RXgmrm        RXgmrm           ✅      0.000
+1078  RYTYk         RYTYk            ✅      0.000
+1079  RYTt          RYTt             ✅      0.000
+1080  RZRN=         RZRN=            ✅      0.000
+1081  RZqU          RZqU             ✅      0.000
+1082  Ra@FH         Ra@FH            ✅      0.000
+1083  RbJZdZ        RbJZdZ           ✅      0.000
+1084  ReHX          ReHX             ✅      0.000
+1085  RgL7@M        RgL7@M           ✅      0.000
+1086  RgZhL         RgZhL            ✅      0.000
+1087  RkLmV         RkLmV            ✅      0.000
+1088  RkdkF         RkdkF            ✅      0.000
+1089  RkmZ          RkmZ             ✅      0.000
+1090  RmPnQ         RmPnQ            ✅      0.000
+1091  RmRU          RmRU             ✅      0.000
+1092  RmZak         RmZak            ✅      0.000
+1093  Rnde          Rnde             ✅      0.000
+1094  RrekrX        RrekrX           ✅      0.000
+1095  RtKP          RtKP             ✅      0.000
+1096  RtahN         RtahN            ✅      0.000
+1097  RtuFub        RtuFub           ✅      0.000
+1098  T4Eqhf        T4Eqhf           ✅      0.000
+1099  T4egD         T4egD            ✅      0.000
+1100  T6Qk          T6Qk             ✅      0.000
+1101  T7Gf          T7Gf             ✅      0.000
+1102  T7kQe         T7kQe            ✅      0.000
+1103  T9e6          T9e6             ✅      0.000
+1104  T=VmY         T=VmY            ✅      0.000
+1105  T@E3U3        T@E3U3           ✅      0.000
+1106  TEPY          TEPY             ✅      0.000
+1107  TETg9         TETg9            ✅      0.000
+1108  TFETaT        TFETaT           ✅      0.000
+1109  TGk4T         TGk4T            ✅      0.000
+1110  THGQU         THGQU            ✅      0.000
+1111  TKNLE         TKNLE            ✅      0.000
+1112  TLtNb         TLtNb            ✅      0.000
+1113  TM=t4d        TM=t4d           ✅      0.000
+1114  TMU6Lt        TMU6Lt           ✅      0.000
+1115  TNbFX         TNbFX            ✅      0.000
+1116  TPM437        TPM437           ✅      0.000
+1117  TQJqeY        TQJqeY           ✅      0.000
+1118  TRhta         TRhta            ✅      0.000
+1119  TThYk         TThYk            ✅      0.000
+1120  TVLae3        TVLae3           ✅      0.000
+1121  TVMm=T        TVMm=T           ✅      0.000
+1122  TVPmd         TVPmd            ✅      0.000
+1123  TVq3q         TVq3q            ✅      0.000
+1124  TWuV4d        TWuV4d           ✅      0.000
+1125  TXaK7         TXaK7            ✅      0.000
+1126  TXuq          TXuq             ✅      0.000
+1127  TYGnkK        TYGnkK           ✅      0.000
+1128  Td6VQm        Td6VQm           ✅      0.000
+1129  TdRDR         TdRDR            ✅      0.000
+1130  Te3Vm4        Te3Vm4           ✅      0.000
+1131  TeW@          TeW@             ✅      0.000
+1132  TfHP9M        TfHP9M           ✅      0.000
+1133  Tg7=Eu        Tg7=Eu           ✅      0.000
+1134  Tg=G          Tg=G             ✅      0.000
+1135  TghR          TghR             ✅      0.000
+1136  ThfaD         ThfaD            ✅      0.000
+1137  TkfJDV        TkfJDV           ✅      0.000
+1138  Tkgd          Tkgd             ✅      0.000
+1139  TmuYX         TmuYX            ✅      0.000
+1140  TnML6e        TnML6e           ✅      0.000
+1141  TnMPP         TnMPP            ✅      0.000
+1142  TndHF         TndHF            ✅      0.000
+1143  TnqQn4        TnqQn4           ✅      0.000
+1144  TrKF          TrKF             ✅      0.000
+1145  TrP3          TrP3             ✅      0.000
+1146  Trfb          Trfb             ✅      0.000
+1147  Tt6gN         Tt6gN            ✅      0.000
+1148  Tt==          Tt==             ✅      0.000
+1149  TuGLf         TuGLf            ✅      0.000
+1150  U4N43         D4N43            ❌      0.200
+1151  U6g6n         U6g6n            ✅      0.000
+1152  U7QV          U7QV             ✅      0.000
+1153  U9qm          U9qm             ✅      0.000
+1154  U9tTGm        U9tTGm           ✅      0.000
+1155  U=ebqk        U=ebqk           ✅      0.000
+1156  U@HtX         U@HtX            ✅      0.000
+1157  UDLZg         UDLZg            ✅      0.000
+1158  UDYJ          UDYJ             ✅      0.000
+1159  UDt@UE        UDt@UE           ✅      0.000
+1160  UEkE          UEkF             ❌      0.250
+1161  UFbXkM        UFbXkM           ✅      0.000
+1162  UG=4          UG=4             ✅      0.000
+1163  UGk3          UGk3             ✅      0.000
+1164  UK=R          UK=R             ✅      0.000
+1165  UKNR7W        UKNR7W           ✅      0.000
+1166  ULrqH         ULrqH            ✅      0.000
+1167  UNdXFa        UNdXFa           ✅      0.000
+1168  UPYFKd        UPYFKd           ✅      0.000
+1169  UQJ6H         UQJ6H            ✅      0.000
+1170  UQqkG         UQqkG            ✅      0.000
+1171  UQuPL         UQuPL            ✅      0.000
+1172  UTYLm         UTYLm            ✅      0.000
+1173  UUaPJ         UUaPJ            ✅      0.000
+1174  UUbWX         UUbWX            ✅      0.000
+1175  UXtr9         UXtr9            ✅      0.000
+1176  UY@GE         UY@GE            ✅      0.000
+1177  UZD6F         UZD6eF           ❌      0.200
+1178  UZfX          UZfX             ✅      0.000
+1179  UaMnY7        UaMnY7           ✅      0.000
+1180  UbDb          UbDb             ✅      0.000
+1181  UeDdbV        UeDdbV           ✅      0.000
+1182  UenWV@        UenWV@           ✅      0.000
+1183  UgM@L         UgM@L            ✅      0.000
+1184  UgX7P         UgX7P            ✅      0.000
+1185  UgbW          UgbW             ✅      0.000
+1186  UhNm          UhNm             ✅      0.000
+1187  UkMN          UkMdN            ❌      0.250
+1188  UmmGdh        UmmGdh           ✅      0.000
+1189  UnGW          UnGW             ✅      0.000
+1190  UnQMWH        UnQMWH           ✅      0.000
+1191  Unbg6P        Unbg6P           ✅      0.000
+1192  UqRtt         UqRtt            ✅      0.000
+1193  UrVZH         UrVZH            ✅      0.000
+1194  UraQX         UraQX            ✅      0.000
+1195  UrnY7         UrnY7            ✅      0.000
+1196  UtmF9         UtmF9            ✅      0.000
+1197  UuFY          UuFY             ✅      0.000
+1198  UubXNW        UubXNW           ✅      0.000
+1199  V3XN          V3XN             ✅      0.000
+1200  V63gZD        V63gZD           ✅      0.000
+1201  V6=KT         V6=KT            ✅      0.000
+1202  V9aMr         V9aMr            ✅      0.000
+1203  V9u=mU        V9u=mU           ✅      0.000
+1204  V=unT         V=unT            ✅      0.000
+1205  VEGJ          VEGJ             ✅      0.000
+1206  VEYFKg        VEYFKg           ✅      0.000
+1207  VFJaa         VFJaa            ✅      0.000
+1208  VFdU79        VFdU79           ✅      0.000
+1209  VHur          VHuT             ❌      0.250
+1210  VJehf         VJehf            ✅      0.000
+1211  VMRQu         VMRQu            ✅      0.000
+1212  VMUDYL        VMUDYL           ✅      0.000
+1213  VNdhgq        VNdhgq           ✅      0.000
+1214  VNg@hg        VNg@hg           ✅      0.000
+1215  VP3H          VP3H             ✅      0.000
+1216  VPX7          VPX7             ✅      0.000
+1217  VPnQma        VPnQma           ✅      0.000
+1218  VQLqEP        VQLqEP           ✅      0.000
+1219  VQqZa         VQqZa            ✅      0.000
+1220  VTrq          VTrq             ✅      0.000
+1221  VV7n          VV7n             ✅      0.000
+1222  VVJmeG        VVJmeG           ✅      0.000
+1223  VVaQM         VVaQM            ✅      0.000
+1224  VWnmb         VWnmb            ✅      0.000
+1225  VXX4=N        VXX4=N           ✅      0.000
+1226  VYZQ          VYZQ             ✅      0.000
+1227  VZZK          VZZK             ✅      0.000
+1228  Vb9U          Vb9U             ✅      0.000
+1229  VdtNG         VdtNG            ✅      0.000
+1230  VeJfE         VeJfE            ✅      0.000
+1231  VfJMbX        VfJMbX           ✅      0.000
+1232  VfdV          VfdV             ✅      0.000
+1233  Vft@u         Vft@u            ✅      0.000
+1234  VgDh          VgDh             ✅      0.000
+1235  Vgqq          Vgqq             ✅      0.000
+1236  VhdE          VhdE             ✅      0.000
+1237  VkXnD         VkXnD            ✅      0.000
+1238  VkYEf         VkYEf            ✅      0.000
+1239  VmFQ3         VmFQ3            ✅      0.000
+1240  Vnbn          Vnbn             ✅      0.000
+1241  Vnfh          Vnfh             ✅      0.000
+1242  VqEgtT        VqEgtT           ✅      0.000
+1243  VqYeL@        VqYeL@           ✅      0.000
+1244  VrqttT        VrqttT           ✅      0.000
+1245  VtGDT         VtGDT            ✅      0.000
+1246  VuNYW         VuNYW            ✅      0.000
+1247  W3Gf@n        W3Gf@n           ✅      0.000
+1248  W3mnt         W3mnt            ✅      0.000
+1249  W3r           W3rR             ❌      0.333
+1250  W=kt          W=kt             ✅      0.000
+1251  WDYL          WDYL             ✅      0.000
+1252  WE6uG         WE6uG            ✅      0.000
+1253  WEVXE         WEVXE            ✅      0.000
+1254  WEhY          WEhY             ✅      0.000
+1255  WEtH          WEtH             ✅      0.000
+1256  WGLR          WGLR             ✅      0.000
+1257  WJKhH6        WJKhH6           ✅      0.000
+1258  WJRZa4        WJRZa4           ✅      0.000
+1259  WJr3d         WJr3d            ✅      0.000
+1260  WKUqkd        WKUqkd           ✅      0.000
+1261  WKhq          WKhq             ✅      0.000
+1262  WKtb          WKtb             ✅      0.000
+1263  WL7mZ6        WL7mZ6           ✅      0.000
+1264  WLhYm         WLhYm            ✅      0.000
+1265  WML@Y         WML@Y            ✅      0.000
+1266  WNPdN         WNPdN            ✅      0.000
+1267  WNgt9Z        WNgt9Z           ✅      0.000
+1268  WNuVb         WNuVb            ✅      0.000
+1269  WPHEr         WPHEr            ✅      0.000
+1270  WQMrE         WQMrE            ✅      0.000
+1271  WT33t         WT33t            ✅      0.000
+1272  WTZ6          WTZ6             ✅      0.000
+1273  WTtunN        WTtunN           ✅      0.000
+1274  WWFW          WWFW             ✅      0.000
+1275  WWrY          WWrY             ✅      0.000
+1276  WX=fNL        WX=fNL           ✅      0.000
+1277  WYgN@J        WYgN@J           ✅      0.000
+1278  WZQm9V        WZQm9V           ✅      0.000
+1279  Wae9          Wae9             ✅      0.000
+1280  WbX6JQ        WbX6JQ           ✅      0.000
+1281  WduXL4        WduXL4           ✅      0.000
+1282  We4VrT        We4VrT           ✅      0.000
+1283  We7g          We7g             ✅      0.000
+1284  WgY9V         WgY9V            ✅      0.000
+1285  WgugfV        WgugfV           ✅      0.000
+1286  WkPP          WkPP             ✅      0.000
+1287  WkeK          WkeK             ✅      0.000
+1288  WmD@          WmD@             ✅      0.000
+1289  WmnWPk        WmnWPk           ✅      0.000
+1290  Wn9kHh        Wn9kHh           ✅      0.000
+1291  WqGd          WqGd             ✅      0.000
+1292  WrQmbg        WrQmbg           ✅      0.000
+1293  Wrg3D         Wrg3D            ✅      0.000
+1294  Wt9a          Wt9a             ✅      0.000
+1295  WuGVg         WuGVg            ✅      0.000
+1296  Wug9          Wug9             ✅      0.000
+1297  WumZP         WumZP            ✅      0.000
+1298  X4YtgW        X4YtgW           ✅      0.000
+1299  X7NQWG        X7NQWG           ✅      0.000
+1300  X7rR          X7rR             ✅      0.000
+1301  X9Nf          X9Nf             ✅      0.000
+1302  X9UZ          X9UZ             ✅      0.000
+1303  X=Vb          X=Vb             ✅      0.000
+1304  X=bQ73        X=bQ73           ✅      0.000
+1305  XDNV          XDNV             ✅      0.000
+1306  XDX6u         XDX6u            ✅      0.000
+1307  XDtEkX        XDtEkX           ✅      0.000
+1308  XE4fMf        XE4fMf           ✅      0.000
+1309  XEKZ          XEKZ             ✅      0.000
+1310  XF@V          XF@V             ✅      0.000
+1311  XFRGWW        XFRGWW           ✅      0.000
+1312  XFfg          XFf9g            ❌      0.250
+1313  XGu6R         XGu6R            ✅      0.000
+1314  XHEd9r        XHEd9r           ✅      0.000
+1315  XJq3          XJq3             ✅      0.000
+1316  XK6K          XK6K             ✅      0.000
+1317  XKqMfd        XKqMfd           ✅      0.000
+1318  XLe9f         XLe9f            ✅      0.000
+1319  XN4ntP        XN4ntP           ✅      0.000
+1320  XNPXLn        XNPXLn           ✅      0.000
+1321  XNWUNY        XNWUNY           ✅      0.000
+1322  XR4=          XR4=             ✅      0.000
+1323  XRTt          XRTt             ✅      0.000
+1324  XRguW         XRguW            ✅      0.000
+1325  XTqt          XTqt             ✅      0.000
+1326  XUJW          XUJW             ✅      0.000
+1327  XULYR         XULYR            ✅      0.000
+1328  XaKE          XaKE             ✅      0.000
+1329  XbEH9         XbEH9            ✅      0.000
+1330  Xbq7Yd        Xbq7Yd           ✅      0.000
+1331  XbrK          XbrK             ✅      0.000
+1332  XdQLd3        XdQLd3           ✅      0.000
+1333  XeuGKe        XeuGKe           ✅      0.000
+1334  XfQt          XfQt             ✅      0.000
+1335  XfTH          XfTH             ✅      0.000
+1336  Xg7Ra6        Xg7Ra6           ✅      0.000
+1337  XgeG          XgeG             ✅      0.000
+1338  XhNT6         XhNT6            ✅      0.000
+1339  XhZ=6g        XhZ=6g           ✅      0.000
+1340  XkZhR         XkZhR            ✅      0.000
+1341  XmdDLR        XmdDLR           ✅      0.000
+1342  Xnenh         Xnenh            ✅      0.000
+1343  XqGhJ         XqGhJ            ✅      0.000
+1344  Xqtm          Xqtm             ✅      0.000
+1345  Xr3Wee        Xr3Wee           ✅      0.000
+1346  XrTWdk        XrTWdk           ✅      0.000
+1347  Y4dG          Y4dG             ✅      0.000
+1348  Y6@P          Y6@P             ✅      0.000
+1349  Y7QN          Y7QN             ✅      0.000
+1350  Y7Y6          Y7Y6             ✅      0.000
+1351  Y7e4          Y7e4             ✅      0.000
+1352  Y7rt          Y7rt             ✅      0.000
+1353  Y@VgL         Y@VgL            ✅      0.000
+1354  YDaDXU        YDaDXU           ✅      0.000
+1355  YEkm          YEkm             ✅      0.000
+1356  YFRVu         YFRVu            ✅      0.000
+1357  YFrm          YFrn             ❌      0.250
+1358  YHY39         YHY39            ✅      0.000
+1359  YJ7b          YJ7b             ✅      0.000
+1360  YJ@f          YJ@f             ✅      0.000
+1361  YJETa         YJETa            ✅      0.000
+1362  YJtUhe        YJtUhe           ✅      0.000
+1363  YL4P7         YL4P7            ✅      0.000
+1364  YLWYg         YLWYg            ✅      0.000
+1365  YNLm          YNLm             ✅      0.000
+1366  YNWNH@        YNWNH@           ✅      0.000
+1367  YPqV          YPqV             ✅      0.000
+1368  YQF7h         YQF7h            ✅      0.000
+1369  YQGNWH        YQGNWH           ✅      0.000
+1370  YQkm          YQkm             ✅      0.000
+1371  YTmba         YTmba            ✅      0.000
+1372  YU9n          YU9n             ✅      0.000
+1373  YWhVNX        YWhVNX           ✅      0.000
+1374  YXQbN=        YXQbN=           ✅      0.000
+1375  YYeLdX        YYeLdX           ✅      0.000
+1376  YZPdF4        YZPdF4           ✅      0.000
+1377  Ya7aZ         Ya7aZ            ✅      0.000
+1378  Ye9P          Ye9P             ✅      0.000
+1379  YeGPPP        YeGPPP           ✅      0.000
+1380  YeNf7         YeNf7            ✅      0.000
+1381  YfW@t         YfW@t            ✅      0.000
+1382  YgtNZr        YgtNZr           ✅      0.000
+1383  YhG79         YhG79            ✅      0.000
+1384  YhJn          YhJn             ✅      0.000
+1385  YhZd          YhZd             ✅      0.000
+1386  YhbJRb        YhbJRb           ✅      0.000
+1387  YmYu          YmYu             ✅      0.000
+1388  Yn3L          Yn3L             ✅      0.000
+1389  YnfDFe        YnfDFe           ✅      0.000
+1390  YngGG         YngGG            ✅      0.000
+1391  YnqaUk        YnqaUk           ✅      0.000
+1392  YqKKGM        YqKKGM           ✅      0.000
+1393  YqPf          YqPf             ✅      0.000
+1394  Z3Nu          Z3Nu             ✅      0.000
+1395  Z4JM          Z4JW             ❌      0.250
+1396  Z737          Z737             ✅      0.000
+1397  Z7EE9Q        Z7EE9Q           ✅      0.000
+1398  Z7TXk         Z7TXk            ✅      0.000
+1399  Z7UWe         Z7UWe            ✅      0.000
+1400  Z7WM          Z7WM             ✅      0.000
+1401  Z=JHb         Z=JHb            ✅      0.000
+1402  ZDUa4         ZDUa4            ✅      0.000
+1403  ZFV@k         ZFV@k            ✅      0.000
+1404  ZFn37f        ZFn37f           ✅      0.000
+1405  ZH6YgL        ZH6YgL           ✅      0.000
+1406  ZHqRq         ZHqRq            ✅      0.000
+1407  ZJZkbN        ZJZkbN           ✅      0.000
+1408  ZKka          ZKka             ✅      0.000
+1409  ZLtm          ZLtm             ✅      0.000
+1410  ZM3FRK        ZM3FRK           ✅      0.000
+1411  ZMGtLd        ZMGtLd           ✅      0.000
+1412  ZMM4H         ZMM4H            ✅      0.000
+1413  ZMkF          ZMkF             ✅      0.000
+1414  ZPZK          ZPZK             ✅      0.000
+1415  ZPqqeN        ZPqqeN           ✅      0.000
+1416  ZQkkGU        ZQkkGU           ✅      0.000
+1417  ZT6U          ZT6U             ✅      0.000
+1418  ZUfYY         ZUfYY            ✅      0.000
+1419  ZVL9M         ZVL9M            ✅      0.000
+1420  ZWg@9t        ZWg@9t           ✅      0.000
+1421  ZYNq          ZYNq             ✅      0.000
+1422  Za4RH         Za4RH            ✅      0.000
+1423  ZbKPu9        ZbKPu9           ✅      0.000
+1424  ZbZfr         ZbZfr            ✅      0.000
+1425  Zben          Zben             ✅      0.000
+1426  ZdYf          ZdYf             ✅      0.000
+1427  Ze4NaU        Ze4NaU           ✅      0.000
+1428  ZeE=b         ZeE=b            ✅      0.000
+1429  ZgQrM         ZgQrM            ✅      0.000
+1430  Zgh@Y         Zgh@Y            ✅      0.000
+1431  Zhde          Zhde             ✅      0.000
+1432  ZkRaE         ZkRaE            ✅      0.000
+1433  ZkYF          ZkYF             ✅      0.000
+1434  Zkrk          Zkrk             ✅      0.000
+1435  ZlhY4         ZlhY4            ✅      0.000
+1436  ZndZnh        ZndZnh           ✅      0.000
+1437  Zq4RKr        Zq4RKr           ✅      0.000
+1438  ZqK4m         ZqK4m            ✅      0.000
+1439  ZqPVh         ZqPVh            ✅      0.000
+1440  ZqX6          ZqX6             ✅      0.000
+1441  ZrGt          ZrGt             ✅      0.000
+1442  ZuG9Z         ZuG9Z            ✅      0.000
+1443  ZuULD         ZuULD            ✅      0.000
+1444  ZunEYG        ZunEYG           ✅      0.000
+1445  a4Jf          a4Jf             ✅      0.000
+1446  a4XQ          a4XQ             ✅      0.000
+1447  a4fD9         a4fD9            ✅      0.000
+1448  a4hT=         a4hT=            ✅      0.000
+1449  a4tMW@        a4tMW@           ✅      0.000
+1450  a@m6Q         a@m6Q            ✅      0.000
+1451  aE7D          aE7D             ✅      0.000
+1452  aEGHf=        aEGHf=           ✅      0.000
+1453  aEPkT         aEPkT            ✅      0.000
+1454  aEeWfk        aEeWfk           ✅      0.000
+1455  aFr=gJ        aFr=gJ           ✅      0.000
+1456  aGK@@Q        aGK@@Q           ✅      0.000
+1457  aJVE          aJVE             ✅      0.000
+1458  aKEr          aKEr             ✅      0.000
+1459  aKem          aKem             ✅      0.000
+1460  aL7rEg        aL7rEg           ✅      0.000
+1461  aLTLZQ        aLTLZQ           ✅      0.000
+1462  aLkXM         aLkXM            ✅      0.000
+1463  aNQQF4        aNQQF4           ✅      0.000
+1464  aPDZ          aPDZ             ✅      0.000
+1465  aQ3hr         aQ3hr            ✅      0.000
+1466  aQUH          aQUH             ✅      0.000
+1467  aQWu          aQWu             ✅      0.000
+1468  aR4Xg         aR4Xg            ✅      0.000
+1469  aR6TJr        aR6TJr           ✅      0.000
+1470  aT6P          aT6P             ✅      0.000
+1471  aTJb          aTJb             ✅      0.000
+1472  aTKP          aTKP             ✅      0.000
+1473  aTt=N         aTt=N            ✅      0.000
+1474  aWEH          aWEH             ✅      0.000
+1475  aWPmM         aWPmM            ✅      0.000
+1476  aWdHN         aWdHN            ✅      0.000
+1477  aXWNr         aXWNr            ✅      0.000
+1478  aYeQ          aYeQ             ✅      0.000
+1479  aaTeaa        aaTeaa           ✅      0.000
+1480  adnXW3        adnXW3           ✅      0.000
+1481  aeE7          aeE7             ✅      0.000
+1482  aeF4RF        aeF4RF           ✅      0.000
+1483  aebt          aebft            ❌      0.250
+1484  aekgn         aekgn            ✅      0.000
+1485  af=PMk        af=PMk           ✅      0.000
+1486  afdRqQ        afdRqQ           ✅      0.000
+1487  ag@a7         ag@a7            ✅      0.000
+1488  akGGm         akGGm            ✅      0.000
+1489  akLtQh        akLtQh           ✅      0.000
+1490  akZKN         akZKN            ✅      0.000
+1491  anYYr         anYYr            ✅      0.000
+1492  aq3=H         aq3=H            ✅      0.000
+1493  aqEQE         aqEQE            ✅      0.000
+1494  aqTgu         aqTgu            ✅      0.000
+1495  art=          art=             ✅      0.000
+1496  at=QTL        at=QTL           ✅      0.000
+1497  at=eF@        at=eF@           ✅      0.000
+1498  auDJQr        auDJQr           ✅      0.000
+1499  auK3QD        auK3QD           ✅      0.000
+1500  auYe          auYe             ✅      0.000
+1501  aubKL         aubKL            ✅      0.000
+1502  b4FEgb        b4FEgb           ✅      0.000
+1503  b4ffeb        b4ffeb           ✅      0.000
+1504  b6Lhd         b6Lhd            ✅      0.000
+1505  b6W4Y7        b6W4Y7           ✅      0.000
+1506  b7DPb         b7DPb            ✅      0.000
+1507  b93qTR        b93qTR           ✅      0.000
+1508  b9q4R         b9q4R            ✅      0.000
+1509  b=7X          b=7X             ✅      0.000
+1510  bDGX          bDGX             ✅      0.000
+1511  bDdXhU        bDdXhU           ✅      0.000
+1512  bENM          bENM             ✅      0.000
+1513  bFTR7         bFTR7            ✅      0.000
+1514  bFtQ          bFtQ             ✅      0.000
+1515  bFukF         bFukF            ✅      0.000
+1516  bGqKHP        bGqKHP           ✅      0.000
+1517  bH7a          bH7a             ✅      0.000
+1518  bHaR          bHaR             ✅      0.000
+1519  bHefuQ        bHefuQ           ✅      0.000
+1520  bHnV          bHnV             ✅      0.000
+1521  bHuLff        bHuLff           ✅      0.000
+1522  bJeb          bJeb             ✅      0.000
+1523  bKFV          bKFV             ✅      0.000
+1524  bLXdh         bLXdh            ✅      0.000
+1525  bLrD4=        bLrD4=           ✅      0.000
+1526  bN4d3R        bN4d3R           ✅      0.000
+1527  bN7f9         bN7f9            ✅      0.000
+1528  bPDX          bPDX             ✅      0.000
+1529  bPb9H         bPb9QH           ❌      0.200
+1530  bR@uF         bR@uF            ✅      0.000
+1531  bT7QZD        bT7QZD           ✅      0.000
+1532  bVHt          bVHt             ✅      0.000
+1533  bVWm49        bVWm49           ✅      0.000
+1534  bVrut         bVrut            ✅      0.000
+1535  bW9=          bW9=             ✅      0.000
+1536  bWaMq         bWaMq            ✅      0.000
+1537  bX4Xk         bX4Xk            ✅      0.000
+1538  bY7Re         bY7Re            ✅      0.000
+1539  bYHJJJ        bYHJJJ           ✅      0.000
+1540  bYTQVd        bYTQVd           ✅      0.000
+1541  bYbP          bYbP             ✅      0.000
+1542  banWn         banWn            ✅      0.000
+1543  bbUNGP        bbUNGP           ✅      0.000
+1544  bdZFU         bdZFU            ✅      0.000
+1545  bduh          bduh             ✅      0.000
+1546  bfGk          bfGk             ✅      0.000
+1547  bfVTd         bfVJTd           ❌      0.200
+1548  bfnR          bfnR             ✅      0.000
+1549  bgfU9P        bgfU9P           ✅      0.000
+1550  bgtDn         bgtDn            ✅      0.000
+1551  bkqEGf        bkqEGf           ✅      0.000
+1552  bmNDKg        bmNDKg           ✅      0.000
+1553  bmdu          bmdu             ✅      0.000
+1554  bnJer         bnJer            ✅      0.000
+1555  bqQG          bqQG             ✅      0.000
+1556  bqqhNU        bqqhNU           ✅      0.000
+1557  br=f          br=f             ✅      0.000
+1558  brKM7W        brKM7W           ✅      0.000
+1559  brKqe         brKqe            ✅      0.000
+1560  breRt         breRt            ✅      0.000
+1561  brgm@M        brgm@M           ✅      0.000
+1562  btYr          btYr             ✅      0.000
+1563  buQe          buQe             ✅      0.000
+1564  buh7b         buh7b            ✅      0.000
+1565  d6Frg         d6Frg            ✅      0.000
+1566  d6N6          d6N6             ✅      0.000
+1567  d6YY          d6YY             ✅      0.000
+1568  d6tY          d6tY             ✅      0.000
+1569  d7HE          d7HE             ✅      0.000
+1570  d7KH          d7KH             ✅      0.000
+1571  d9=M          d9=M             ✅      0.000
+1572  d9PTR         d9PTR            ✅      0.000
+1573  d=Nk          d=Nk             ✅      0.000
+1574  d=qVe         d=qVe            ✅      0.000
+1575  d@Vfe         d@Vfe            ✅      0.000
+1576  dEG@J         dEG@J            ✅      0.000
+1577  dEMr          dEMr             ✅      0.000
+1578  dEZbX         dEZbX            ✅      0.000
+1579  dGr4q         dGr4q            ✅      0.000
+1580  dHTD          dHTD             ✅      0.000
+1581  dJu33u        dJu33u           ✅      0.000
+1582  dKbdQQ        dKbdQQ           ✅      0.000
+1583  dLqXg9        dLqXg9           ✅      0.000
+1584  dMWn          dMWn             ✅      0.000
+1585  dNKe          dNKe             ✅      0.000
+1586  dNQn          dNQn             ✅      0.000
+1587  dNhqgg        dNhqgg           ✅      0.000
+1588  dPTmg7        dPTmg7           ✅      0.000
+1589  dPXMuh        dPXMuh           ✅      0.000
+1590  dPnr          dPr              ❌      0.250
+1591  dQqqfY        dQqqfY           ✅      0.000
+1592  dRaD          dRaD             ✅      0.000
+1593  dRarad        dRarad           ✅      0.000
+1594  dT7Zur        dT7Zur           ✅      0.000
+1595  dTRf          dTRf             ✅      0.000
+1596  dTXKE         dTXKE            ✅      0.000
+1597  dTfu          dTfu             ✅      0.000
+1598  dUNn          dUNn             ✅      0.000
+1599  dV7Gk         dV7Gk            ✅      0.000
+1600  dWWek         dWWek            ✅      0.000
+1601  dWd4L         dWd4L            ✅      0.000
+1602  dXbfW         dXbfW            ✅      0.000
+1603  dYKd          dYKqd            ❌      0.250
+1604  dYaUFE        dYaUFE           ✅      0.000
+1605  dZH4          dZH4             ✅      0.000
+1606  daMEN         daMEN            ✅      0.000
+1607  daNrk         daNfk            ❌      0.200
+1608  daRKE         daRKE            ✅      0.000
+1609  daatG         daatG            ✅      0.000
+1610  db9k          db9k             ✅      0.000
+1611  dbM69F        dbM69F           ✅      0.000
+1612  dbqPr7        dbqPr7           ✅      0.000
+1613  ddQYh         ddQYh            ✅      0.000
+1614  dfkU          dfkU             ✅      0.000
+1615  dftM@         dftM@            ✅      0.000
+1616  dkL6n         dkL6n            ✅      0.000
+1617  dkMU          dkMU             ✅      0.000
+1618  dkRtNg        dkRtNg           ✅      0.000
+1619  dkrk7         dkrk7            ✅      0.000
+1620  dmUeLV        dmUeLV           ✅      0.000
+1621  dmWgd         dmWgd            ✅      0.000
+1622  dmZfm         dmZfm            ✅      0.000
+1623  dnYb          dnYb             ✅      0.000
+1624  dqRG          dqRG             ✅      0.000
+1625  dqkmkJ        dqkmkJ           ✅      0.000
+1626  drh6er        drh6er           ✅      0.000
+1627  dtkfr         dtkfr            ✅      0.000
+1628  du=NV         du=NV            ✅      0.000
+1629  dua6Wf        dua6Wf           ✅      0.000
+1630  e3NK          e3NK             ✅      0.000
+1631  e3RJ          e3RJ             ✅      0.000
+1632  e3WkE4        e3WkE4           ✅      0.000
+1633  e4DFk         e4DFk            ✅      0.000
+1634  e4MK          e4MK             ✅      0.000
+1635  e6Z=MN        e6Z=MN           ✅      0.000
+1636  e9Yq          e9Yq             ✅      0.000
+1637  e9ZFKF        e9ZFKF           ✅      0.000
+1638  e=WWVh        e=WWVh           ✅      0.000
+1639  e=ZWWH        e=ZWWH           ✅      0.000
+1640  e@DF          e@DF             ✅      0.000
+1641  e@LMm         e@LMm            ✅      0.000
+1642  e@uKRQ        e@uKRQ           ✅      0.000
+1643  eDXk          eDXk             ✅      0.000
+1644  eELYte        eELYte           ✅      0.000
+1645  eFGNY         eFGNY            ✅      0.000
+1646  eFmkZq        eFmkZq           ✅      0.000
+1647  eGRmrZ        eGRmrZ           ✅      0.000
+1648  eHFk          eHFk             ✅      0.000
+1649  eHYT=         eHYT=            ✅      0.000
+1650  eHYXE4        eHYXE4           ✅      0.000
+1651  eHYa          eHYa             ✅      0.000
+1652  eHZZ          eHZZ             ✅      0.000
+1653  eHdJk         eHdJk            ✅      0.000
+1654  eJPq6         eJPq6            ✅      0.000
+1655  eJUU          eJUU             ✅      0.000
+1656  eKqXH         eKqXH            ✅      0.000
+1657  eLT7Z         eLT7Z            ✅      0.000
+1658  eMqD4h        eMqD4h           ✅      0.000
+1659  eMuMe         eMuMe            ✅      0.000
+1660  eNmL          eNmL             ✅      0.000
+1661  ePJr          ePJr             ✅      0.000
+1662  eQTD          eQTD             ✅      0.000
+1663  eT7Mr         eT7Mr            ✅      0.000
+1664  eTq4V         eTq4V            ✅      0.000
+1665  eVKfdN        eVKfdN           ✅      0.000
+1666  eWGFfu        eWGFfu           ✅      0.000
+1667  eWLdg         eWLdg            ✅      0.000
+1668  eX9W          eX9W             ✅      0.000
+1669  eX9a          eX9a             ✅      0.000
+1670  eXnrD         eXnrD            ✅      0.000
+1671  eYDqN         eYDqN            ✅      0.000
+1672  eYF=N         eYF=N            ✅      0.000
+1673  eYFn          eYFn             ✅      0.000
+1674  eZKUH         eZKUH            ✅      0.000
+1675  ebMQ          ebMQ             ✅      0.000
+1676  ee6drQ        ee6drQ           ✅      0.000
+1677  eeFNV         eeFNV            ✅      0.000
+1678  eeVkPt        eeVkPt           ✅      0.000
+1679  egWhTU        egWhTU           ✅      0.000
+1680  ekdL76        ekdL76           ✅      0.000
+1681  ekk7d         ekk7d            ✅      0.000
+1682  emD9JE        emD9JE           ✅      0.000
+1683  emX@L         emX@L            ✅      0.000
+1684  enVH          enVH             ✅      0.000
+1685  enXLkd        enXLkd           ✅      0.000
+1686  eqJnYN        eqJnYN           ✅      0.000
+1687  eqtNL3        eqtNL3           ✅      0.000
+1688  et9HNn        et9HNn           ✅      0.000
+1689  f3=HXX        f3=HXX           ✅      0.000
+1690  f3mgQe        f3mgQe           ✅      0.000
+1691  f3r9U         f3r9U            ✅      0.000
+1692  f3uM          f3uM             ✅      0.000
+1693  f469          f469             ✅      0.000
+1694  f6nm          f6nn             ❌      0.250
+1695  f7XFt         f7XFt            ✅      0.000
+1696  f96QN         f96QN            ✅      0.000
+1697  f=Y=N         f=Y=N            ✅      0.000
+1698  f@K6=f        f@K6=f           ✅      0.000
+1699  f@kf          f@kf             ✅      0.000
+1700  f@qdL         f@qdL            ✅      0.000
+1701  fD7dkn        fD7dkn           ✅      0.000
+1702  fDqFU         fDqFU            ✅      0.000
+1703  fENM          fENM             ✅      0.000
+1704  fFHRQ         fFHRQ            ✅      0.000
+1705  fJZe          fJZe             ✅      0.000
+1706  fLJT          fLJT             ✅      0.000
+1707  fLMt          fLMt             ✅      0.000
+1708  fLWbNQ        fLWbNQ           ✅      0.000
+1709  fMYm9         fMYm9            ✅      0.000
+1710  fQLa          fQLa             ✅      0.000
+1711  fQY3d         fQY3d            ✅      0.000
+1712  fRLZRg        fRLZRg           ✅      0.000
+1713  fRWu          fRWu             ✅      0.000
+1714  fRadu         fRadu            ✅      0.000
+1715  fUMY          fUMY             ✅      0.000
+1716  fV@DQ         fV@DQ            ✅      0.000
+1717  fWTeh         fWTeh            ✅      0.000
+1718  fXJ9Dq        fXJ9Dq           ✅      0.000
+1719  fXRQ4F        fXRQ4F           ✅      0.000
+1720  fXVH4         fXVH4            ✅      0.000
+1721  fXm=6         fXm=6            ✅      0.000
+1722  faVTe         faVTe            ✅      0.000
+1723  farUM         farUM            ✅      0.000
+1724  fbJd          fbJd             ✅      0.000
+1725  fbXNR         fbXNR            ✅      0.000
+1726  fbYJ=         fbYJ=            ✅      0.000
+1727  fftPV         fftPWV           ❌      0.200
+1728  fgQnfY        fgQnfY           ✅      0.000
+1729  fgmD          fgmD             ✅      0.000
+1730  fh@FR         fh@FR            ✅      0.000
+1731  fhVXr         fhVXr            ✅      0.000
+1732  fmH3KN        fmH3KN           ✅      0.000
+1733  fmUn          fmUn             ✅      0.000
+1734  fmnq          fmnq             ✅      0.000
+1735  fqKEMM        fqKEMM           ✅      0.000
+1736  frXm          frXm             ✅      0.000
+1737  ft6Wa         ft6Wan           ❌      0.200
+1738  ftMZG         ftMZG            ✅      0.000
+1739  g4RU          g4RU             ✅      0.000
+1740  g4YV          g4YV             ✅      0.000
+1741  g4gn          g4gn             ✅      0.000
+1742  g4nG          g4nG             ✅      0.000
+1743  g67b          g67b             ✅      0.000
+1744  g7GG          g7GG             ✅      0.000
+1745  g7Wk          g7Wk             ✅      0.000
+1746  g=Jr7         g=Jr7            ✅      0.000
+1747  g=u9          g=u9             ✅      0.000
+1748  g@Pb          g@Pb             ✅      0.000
+1749  g@arU6        g@arU6           ✅      0.000
+1750  gE4Tq         gE4Tq            ✅      0.000
+1751  gEWFR         gEWFR            ✅      0.000
+1752  gF@dK         gF@dK            ✅      0.000
+1753  gFD63         gFD63            ✅      0.000
+1754  gFZ4Z         gFZ4Z            ✅      0.000
+1755  gG=M          gG=M             ✅      0.000
+1756  gH7aH         gH7aH            ✅      0.000
+1757  gHUTNG        gHUTNG           ✅      0.000
+1758  gJ=7NY        gJ=7NY           ✅      0.000
+1759  gJtTNT        gJtTNT           ✅      0.000
+1760  gKEZL         gKEZL            ✅      0.000
+1761  gKFT          gKFT             ✅      0.000
+1762  gMVDX6        gMVDX6           ✅      0.000
+1763  gPNVM         gPNVM            ✅      0.000
+1764  gPZ@6P        gPZ@6P           ✅      0.000
+1765  gQMWHT        gQMWHT           ✅      0.000
+1766  gRJMW7        gRJMW7           ✅      0.000
+1767  gT=LK         gT=LK            ✅      0.000
+1768  gTN3qV        gTN3qV           ✅      0.000
+1769  gUGEQf        gUGEQf           ✅      0.000
+1770  gVddY         gVddY            ✅      0.000
+1771  gYGm          gYGm             ✅      0.000
+1772  gYbW          gYbW             ✅      0.000
+1773  gaJJ          gaJJ             ✅      0.000
+1774  gagr          gagr             ✅      0.000
+1775  gaqgNd        gaqgNd           ✅      0.000
+1776  gbKYa         gbKYa            ✅      0.000
+1777  gbaTXH        gbaTXH           ✅      0.000
+1778  gdQu7         gdQu7            ✅      0.000
+1779  gePtJ         gePtJ            ✅      0.000
+1780  gfFgZ         gfFgZ            ✅      0.000
+1781  gfM7Z         gfM7Z            ✅      0.000
+1782  gfTa          gfTa             ✅      0.000
+1783  gge6          gge6             ✅      0.000
+1784  ghYLg         ghYLg            ✅      0.000
+1785  gkKNK         gkKNK            ✅      0.000
+1786  gkTnD         gkTnD            ✅      0.000
+1787  gkmNVV        gkmNVV           ✅      0.000
+1788  gkr@          gkr@             ✅      0.000
+1789  gktHt         gktHt            ✅      0.000
+1790  gnTRrJ        gnTRrJ           ✅      0.000
+1791  gqW3n         gqW3n            ✅      0.000
+1792  gthLm         gthLm            ✅      0.000
+1793  gtqWLY        gtqWLY           ✅      0.000
+1794  h3UkNF        h3UkNF           ✅      0.000
+1795  h7dMrt        h7dMrt           ✅      0.000
+1796  h7tQ@L        h7tQ@L           ✅      0.000
+1797  hD3@6         hD3@6            ✅      0.000
+1798  hFbLg         hFbLg            ✅      0.000
+1799  hFeVt         hFeVt            ✅      0.000
+1800  hGgg3g        hGgg3g           ✅      0.000
+1801  hKdGm         hKdGm            ✅      0.000
+1802  hLL3          hLL3             ✅      0.000
+1803  hMqet         hMqet            ✅      0.000
+1804  hNVQL         hNVQL            ✅      0.000
+1805  hQFKb         hQFKb            ✅      0.000
+1806  hRP@Km        hRP@Km           ✅      0.000
+1807  hRYq          hRYq             ✅      0.000
+1808  hTfgN=        hTfgN=           ✅      0.000
+1809  hTrNd         hTrNd            ✅      0.000
+1810  hVaWgM        hVaWgM           ✅      0.000
+1811  hXDK          hXDK             ✅      0.000
+1812  hY7tJ         hY7tJ            ✅      0.000
+1813  hZ@ff         hZ@ff            ✅      0.000
+1814  hZfW          hZfW             ✅      0.000
+1815  ha=7          ha=7             ✅      0.000
+1816  haR4          haR4             ✅      0.000
+1817  hb3uH         hb3uH            ✅      0.000
+1818  heKVLM        heKVLM           ✅      0.000
+1819  hgUKZ         hgUKZ            ✅      0.000
+1820  hh4HDU        hh4HDU           ✅      0.000
+1821  hhRtHX        hhRtHX           ✅      0.000
+1822  hkNaU         hkNaU            ✅      0.000
+1823  hkqb9         hkqb9            ✅      0.000
+1824  hkuL          hk=L             ❌      0.250
+1825  hmfuMZ        hmfuMZ           ✅      0.000
+1826  hnLU          hnLU             ✅      0.000
+1827  hq@=9         hq@=9            ✅      0.000
+1828  hr@YE         hr@YE            ✅      0.000
+1829  ht4XQ         ht4XQ            ✅      0.000
+1830  huGrd         huGrd            ✅      0.000
+1831  huuW          huuW             ✅      0.000
+1832  k36r          k36r             ✅      0.000
+1833  k94FWb        k94FWb           ✅      0.000
+1834  k9G4Yr        k9G4Yr           ✅      0.000
+1835  k@@KM         k@@KM            ✅      0.000
+1836  k@Q=4e        k@Q=4e           ✅      0.000
+1837  kDb=          kDb=             ✅      0.000
+1838  kEKLPn        kEKLPn           ✅      0.000
+1839  kEd6HT        kEd6HT           ✅      0.000
+1840  kFZnW         kFZnW            ✅      0.000
+1841  kFfF          kFfF             ✅      0.000
+1842  kHfQH6        kHfQH6           ✅      0.000
+1843  kJeG          kJeG             ✅      0.000
+1844  kLK@          kLK@             ✅      0.000
+1845  kLWKH         kLWKH            ✅      0.000
+1846  kLeV          kLeV             ✅      0.000
+1847  kMeeR         kMeeR            ✅      0.000
+1848  kNL=          kNL=             ✅      0.000
+1849  kNRdR         kNRdR            ✅      0.000
+1850  kNZR          kNZR             ✅      0.000
+1851  kNu6K         kNu6K            ✅      0.000
+1852  kQGH          kQGH             ✅      0.000
+1853  kR3nM         kR3nM            ✅      0.000
+1854  kR9b          kR9b             ✅      0.000
+1855  kUQK          kUQK             ✅      0.000
+1856  kUXU4f        kUXU4f           ✅      0.000
+1857  kVam          kVam             ✅      0.000
+1858  kXMKG         kXMKG            ✅      0.000
+1859  kXt7          kXt7             ✅      0.000
+1860  kYFeah.       kYFeah.          ✅      0.000
+1861  kZTe          kZTe             ✅      0.000
+1862  kaZ7          kaZ7             ✅      0.000
+1863  keN3NV        keN3NV           ✅      0.000
+1864  keV9          keV9             ✅      0.000
+1865  kfh6          kfh6             ✅      0.000
+1866  kgPK          kgPK             ✅      0.000
+1867  kgZJgQ        kgZJgQ           ✅      0.000
+1868  khG6          khG6             ✅      0.000
+1869  kkXG          kkXG             ✅      0.000
+1870  kmntm         kmntm            ✅      0.000
+1871  knQWb         knQWb            ✅      0.000
+1872  kqLV          kqLV             ✅      0.000
+1873  kqhD          kqhD             ✅      0.000
+1874  kr4KM         kr4KM            ✅      0.000
+1875  ktXKT         ktXKT            ✅      0.000
+1876  m49Jdr        m49Jdr           ✅      0.000
+1877  m49XeP        m49XeP           ✅      0.000
+1878  m6Jd          m6Jd             ✅      0.000
+1879  m6RuV         m6RuV            ✅      0.000
+1880  m7W3ha        m7W3ha           ✅      0.000
+1881  m9TG          m9TG             ✅      0.000
+1882  m9mUam        m9mUam           ✅      0.000
+1883  m===          m===             ✅      0.000
+1884  m@=ML         m@=ML            ✅      0.000
+1885  m@W3tM        m@W3tM           ✅      0.000
+1886  mDJft         mDJft            ✅      0.000
+1887  mDVNW9        mDVNW9           ✅      0.000
+1888  mDVu          mDVu             ✅      0.000
+1889  mDfH          mDfH             ✅      0.000
+1890  mE7d          mE7d             ✅      0.000
+1891  mFGdd=        mFGdd=           ✅      0.000
+1892  mFXWPU        mFXWPU           ✅      0.000
+1893  mFbW          mFbW             ✅      0.000
+1894  mGLWnQ        mGLWnQ           ✅      0.000
+1895  mJdG          mJdG             ✅      0.000
+1896  mLKrW         mLKrW            ✅      0.000
+1897  mMYTP         mMYTP            ✅      0.000
+1898  mN@h          mN@h             ✅      0.000
+1899  mNEYTd        mNEYTd           ✅      0.000
+1900  mPReg         mPReg            ✅      0.000
+1901  mQEH          mQEH             ✅      0.000
+1902  mQZqnK        mQZqnK           ✅      0.000
+1903  mRb7Lt        mRb7Lt           ✅      0.000
+1904  mRrnah        mRrnah           ✅      0.000
+1905  mTQak         mTQak            ✅      0.000
+1906  mTVY          mTVY             ✅      0.000
+1907  mThHgQ        mThHgQ           ✅      0.000
+1908  mUTK          mUTK             ✅      0.000
+1909  mUVLL4        mUVLL4           ✅      0.000
+1910  mVGG          mVGG             ✅      0.000
+1911  mWP@          mWP@             ✅      0.000
+1912  mXFe          mXFe             ✅      0.000
+1913  mYGT          mYGT             ✅      0.000
+1914  mYWN          mYWN             ✅      0.000
+1915  mYgD6=        mYgD6=           ✅      0.000
+1916  ma=ah         ma=ah            ✅      0.000
+1917  meEK          meEKK            ❌      0.250
+1918  meuR          meuR             ✅      0.000
+1919  mfWJQ         mfWJQ            ✅      0.000
+1920  mg7bKq        mg7bKq           ✅      0.000
+1921  mg9Y          mg9Y             ✅      0.000
+1922  mgDqN         mgDqN            ✅      0.000
+1923  mgRQD         mgRQD            ✅      0.000
+1924  mkmH          mkmH             ✅      0.000
+1925  mnaNJq        mnaNJq           ✅      0.000
+1926  mqVN          mqVN             ✅      0.000
+1927  mrEbg         mrEbg            ✅      0.000
+1928  mrukY         mrukY            ✅      0.000
+1929  mtugF=        mtugPF=          ❌      0.167
+1930  mudkt         mudkt            ✅      0.000
+1931  n34W          n34W             ✅      0.000
+1932  n3K7LE        n3K7LE           ✅      0.000
+1933  n6QZ          n6QZ             ✅      0.000
+1934  n6Rk          n6Rk             ✅      0.000
+1935  n6aMG         n6aMG            ✅      0.000
+1936  n7Nt          n7Nt             ✅      0.000
+1937  n9tJ          n9tJ             ✅      0.000
+1938  n=Ku          n=Ku             ✅      0.000
+1939  n=UD7         n=UD7            ✅      0.000
+1940  n@JmZ         n@JmZ            ✅      0.000
+1941  n@gH          n@gH             ✅      0.000
+1942  nEW7          nEW7             ✅      0.000
+1943  nFVUu9        nFVUu9           ✅      0.000
+1944  nFePM         nFePM            ✅      0.000
+1945  nFkg          nFkg             ✅      0.000
+1946  nGDJ          nGDJ             ✅      0.000
+1947  nGDUd         nGDUd            ✅      0.000
+1948  nJRf          nJRf             ✅      0.000
+1949  nJUXb         nJUXb            ✅      0.000
+1950  nKJUbR        nKJUbR           ✅      0.000
+1951  nLJ7          nLJ7             ✅      0.000
+1952  nLJYE         nLJYE            ✅      0.000
+1953  nLgGNF        nLgGNF           ✅      0.000
+1954  nMVQG         nMVQG            ✅      0.000
+1955  nN69          nN69             ✅      0.000
+1956  nNQP@r        nNQP@r           ✅      0.000
+1957  nPJF          nPJF             ✅      0.000
+1958  nRJdmJ        nRJdmJ           ✅      0.000
+1959  nUML4g        nUML4g           ✅      0.000
+1960  nVVT=         nVVT=            ✅      0.000
+1961  nVZ=gQ        nVZ=gQ           ✅      0.000
+1962  nVbLX         nVbLX            ✅      0.000
+1963  nVnn          nVnn             ✅      0.000
+1964  nY3Y          nY3Y             ✅      0.000
+1965  nYtR          nYtR             ✅      0.000
+1966  nanY          nanY             ✅      0.000
+1967  nf@94t        nf@94t           ✅      0.000
+1968  nfGWD         nfGWD            ✅      0.000
+1969  ngdtZP        ngdtZP           ✅      0.000
+1970  nhNdt         nhNdt            ✅      0.000
+1971  njwU          NnjwU            ❌      0.250
+1972  nkJTDK        nkJTDK           ✅      0.000
+1973  nkbGWe        nkbGWe           ✅      0.000
+1974  nq6T          nq6T             ✅      0.000
+1975  nqLTa         nqLTa            ✅      0.000
+1976  ntJ4QG        ntJ4QG           ✅      0.000
+1977  ntutJf        ntutJf           ✅      0.000
+1978  nuH=          nuH=             ✅      0.000
+1979  nuMXJ         nuMXJ            ✅      0.000
+1980  nuNK@         nuNK@            ✅      0.000
+1981  q3mWd9        q3mWd9           ✅      0.000
+1982  q63N          q63N             ✅      0.000
+1983  q6rE          q6rE             ✅      0.000
+1984  q7eK          q7eK             ✅      0.000
+1985  q=6@          q=6@             ✅      0.000
+1986  q=nqQN        q=nqQN           ✅      0.000
+1987  q=tTTG        q=tTTG           ✅      0.000
+1988  q@nhGG        q@nhGG           ✅      0.000
+1989  qDbYN6        qDbYN6           ✅      0.000
+1990  qEHYFG        qEHYFG           ✅      0.000
+1991  qFEYb         qFEYb            ✅      0.000
+1992  qFQTQM        qFQTQM           ✅      0.000
+1993  qFTuX         qFTuX            ✅      0.000
+1994  qGR4          qGR4             ✅      0.000
+1995  qGTHd         qGTHd            ✅      0.000
+1996  qGfeXP        qGfeXP           ✅      0.000
+1997  qHQbtr        qHQbtr           ✅      0.000
+1998  qJhg          qJhg             ✅      0.000
+1999  qKfbma        qKfbma           ✅      0.000
+2000  qN@Wq         qN@Wq            ✅      0.000
+2001  qP3=          qP3=             ✅      0.000
+2002  qPrb3         qPrb3            ✅      0.000
+2003  qQYDu9        qQYDu9           ✅      0.000
+2004  qQmZV         qQmZV            ✅      0.000
+2005  qQtKdk        qQtKdk           ✅      0.000
+2006  qRJ9          qRJ9             ✅      0.000
+2007  qRK4YH        qRK4YH           ✅      0.000
+2008  qTVdN         qTVdN            ✅      0.000
+2009  qUtnZ         qUtnZ            ✅      0.000
+2010  qVK4          qVK4             ✅      0.000
+2011  qVNm          qVNm             ✅      0.000
+2012  qVfrH         qVfrH            ✅      0.000
+2013  qVh3We        qVh3We           ✅      0.000
+2014  qX@eE         qX@eE            ✅      0.000
+2015  qXTf          qXTf             ✅      0.000
+2016  qXfLEb        qXfLEb           ✅      0.000
+2017  qYkb          qYkb             ✅      0.000
+2018  qZhW          qZhW             ✅      0.000
+2019  qaKtHD        qaKtHD           ✅      0.000
+2020  qaTVe         qaTVe            ✅      0.000
+2021  qafKEe        qafKEe           ✅      0.000
+2022  qdU6=         qdU6=            ✅      0.000
+2023  qeqRk         qeqRk            ✅      0.000
+2024  qfV4V         qfV4V            ✅      0.000
+2025  qftkZ         qftkZ            ✅      0.000
+2026  qhXZ          qhXZX            ❌      0.250
+2027  qkNhQ         qkNhQ            ✅      0.000
+2028  qkWK          qkWK             ✅      0.000
+2029  qm3d          qm3d             ✅      0.000
+2030  qqmr          qqmr             ✅      0.000
+2031  qu=G          qu=G             ✅      0.000
+2032  r3fV          r3fV             ✅      0.000
+2033  r4HN          r4HN             ✅      0.000
+2034  r4RkM         r4RkM            ✅      0.000
+2035  r4dPTG        r4dPTG           ✅      0.000
+2036  r6EVk         r6EVk            ✅      0.000
+2037  r6F7h         r6F7h            ✅      0.000
+2038  r6b=XG        r6b=XG           ✅      0.000
+2039  r7HE@         r7HE@            ✅      0.000
+2040  r7XgW         r7XgW            ✅      0.000
+2041  r=PVqE        r=PVqE           ✅      0.000
+2042  rDLPUd        rDLPUd           ✅      0.000
+2043  rDZK          rDZK             ✅      0.000
+2044  rDtJ          rDtJ             ✅      0.000
+2045  rE6g          rE6g             ✅      0.000
+2046  rFJfH         rFJfH            ✅      0.000
+2047  rG63Lm        rG63Lm           ✅      0.000
+2048  rGuWq         rGuWqq           ❌      0.200
+2049  rMEYe         rMEYe            ✅      0.000
+2050  rMrUhX        rMrUhX           ✅      0.000
+2051  rNY@Vb        rNY@Vb           ✅      0.000
+2052  rPFf          rPFf             ✅      0.000
+2053  rPGK          rPGK             ✅      0.000
+2054  rR@9          rR@9             ✅      0.000
+2055  rRmuq         rRmuq            ✅      0.000
+2056  rTFE6e        rTFE6e           ✅      0.000
+2057  rThr          rThr             ✅      0.000
+2058  rV7f          rV7f             ✅      0.000
+2059  rVVR          rVVR             ✅      0.000
+2060  rWPQZ         rWPQZ            ✅      0.000
+2061  rWX6          rWX6             ✅      0.000
+2062  rWnGPu        rWnGPu           ✅      0.000
+2063  rX9E          rX9E             ✅      0.000
+2064  rZV@L         rZV@L            ✅      0.000
+2065  raMY          raMY             ✅      0.000
+2066  raTrW         raTrW            ✅      0.000
+2067  rarX          rarX             ✅      0.000
+2068  rbFG          rbFG             ✅      0.000
+2069  rbhP          rbhP             ✅      0.000
+2070  rdEa          rdEa             ✅      0.000
+2071  rdKG          rdKG             ✅      0.000
+2072  rdaDXV        rdaDXV           ✅      0.000
+2073  rdgNTV        rdgNTV           ✅      0.000
+2074  rdnTLR        rdnTLR           ✅      0.000
+2075  re=N          re=N             ✅      0.000
+2076  rfMrHf        rfMrHf           ✅      0.000
+2077  rgmWT         rgmWT            ✅      0.000
+2078  rh9P          rh9P             ✅      0.000
+2079  rm@3E         rm@3E            ✅      0.000
+2080  rmFMP         rmFMP            ✅      0.000
+2081  rmVZq         rmVZq            ✅      0.000
+2082  rnT6e         rnT6e            ✅      0.000
+2083  rnWKh         rnWKh            ✅      0.000
+2084  rraR          rraR             ✅      0.000
+2085  rrd7mQ        rrd7mQ           ✅      0.000
+2086  ruEg7         ruEg7            ✅      0.000
+2087  t3k3nQ        t3k3nQ           ✅      0.000
+2088  t3tF          t3tF             ✅      0.000
+2089  t4nX          t4nX             ✅      0.000
+2090  t6ZWM4        t6ZWM4           ✅      0.000
+2091  t6gV          t6gV             ✅      0.000
+2092  t979          t979             ✅      0.000
+2093  t9U=          t9U=             ✅      0.000
+2094  t9aMgN        t9aMgN           ✅      0.000
+2095  t@3nk@        t@3nk@           ✅      0.000
+2096  tE3J          tE3J             ✅      0.000
+2097  tEWt          tEWt             ✅      0.000
+2098  tF7HPQ        tF7HPQ           ✅      0.000
+2099  tF@XZT        tF@XZT           ✅      0.000
+2100  tGJ3K         tGJ3K            ✅      0.000
+2101  tGUK7         tGUK7            ✅      0.000
+2102  tGVJJ         tGVJJ            ✅      0.000
+2103  tKdf          tKdf             ✅      0.000
+2104  tLQrX         tLQrX            ✅      0.000
+2105  tLn6          tLn6             ✅      0.000
+2106  tMq6          tMq6             ✅      0.000
+2107  tP6rH         tP6rH            ✅      0.000
+2108  tR=n          tR=n             ✅      0.000
+2109  tRFQN         tRFQN            ✅      0.000
+2110  tTnhb         tTnhb            ✅      0.000
+2111  tVMrr         tVMrr            ✅      0.000
+2112  tVub          tVub             ✅      0.000
+2113  tW7TJ3        tW7TJ3           ✅      0.000
+2114  tWL@L@        tWL@L@           ✅      0.000
+2115  tX6nV4        tX6nV4           ✅      0.000
+2116  tXVnnu        tXVnnu           ✅      0.000
+2117  tXbFFT        tXbFFT           ✅      0.000
+2118  tZbP          tZbP             ✅      0.000
+2119  ta=TeD        ta=TeD           ✅      0.000
+2120  taHb7         taHb7            ✅      0.000
+2121  taaMH=        taaMH=           ✅      0.000
+2122  tbXenb        tbXenb           ✅      0.000
+2123  tdGKQQ        tdGKQQ           ✅      0.000
+2124  tf7f          tf7f             ✅      0.000
+2125  tgkq          tgkq             ✅      0.000
+2126  th7GYK        th7GYK           ✅      0.000
+2127  th@mXF        th@mXF           ✅      0.000
+2128  thQHXX        thQHXX           ✅      0.000
+2129  thUU7e        thUU7e           ✅      0.000
+2130  thuk          thuk             ✅      0.000
+2131  tmEfkh        tmEfkh           ✅      0.000
+2132  tnVk4         tnVk4            ✅      0.000
+2133  tnVkN         tnVkN            ✅      0.000
+2134  tqJUmm        tqJUmm           ✅      0.000
+2135  trHe@G        trHe@G           ✅      0.000
+2136  trrdmt        trrdmt           ✅      0.000
+2137  tuub          tuub             ✅      0.000
+2138  u3UfqP        u3UfqP           ✅      0.000
+2139  u4XT          u4XT             ✅      0.000
+2140  u7LU          u7LU             ✅      0.000
+2141  u7kJ          u7kJ             ✅      0.000
+2142  u9nVY         u9nVY            ✅      0.000
+2143  u=VJ          u=VJ             ✅      0.000
+2144  u=eD          u=eD             ✅      0.000
+2145  uDG4ff        uDG4ff           ✅      0.000
+2146  uEeZ          uEeZ             ✅      0.000
+2147  uFug          uFug             ✅      0.000
+2148  uGNDL         uGNDL            ✅      0.000
+2149  uJVU          uJVU             ✅      0.000
+2150  uKLM          uKLM             ✅      0.000
+2151  uLLD          uLLD             ✅      0.000
+2152  uMLe=         uMLe=            ✅      0.000
+2153  uNGG          uNGG             ✅      0.000
+2154  uNmt          uNmt             ✅      0.000
+2155  uPgf6Z        uPgf6Z           ✅      0.000
+2156  uTQ3W6        uTQ3W6           ✅      0.000
+2157  uU3J          uU3J             ✅      0.000
+2158  uUPe@         uUPe@            ✅      0.000
+2159  uUY7Q         uUY7Q            ✅      0.000
+2160  uUbuR         uUbuR            ✅      0.000
+2161  uV@LfX        uV@LfX           ✅      0.000
+2162  uW7=E         uW7=E            ✅      0.000
+2163  uXRG          uXRG             ✅      0.000
+2164  uXVqN@        uXVqN@           ✅      0.000
+2165  uYP3X3        uYP3X3           ✅      0.000
+2166  uYUQ          uYUQ             ✅      0.000
+2167  uZLW@b        uZLW@b           ✅      0.000
+2168  uaPG          uaPG             ✅      0.000
+2169  ubHh          ubHh             ✅      0.000
+2170  ubXY          UbXY             ❌      0.250
+2171  ubgPH         ubgPH            ✅      0.000
+2172  udXkGJ        udXkGJ           ✅      0.000
+2173  udbr          udbr             ✅      0.000
+2174  udqDRm        udqDRm           ✅      0.000
+2175  ue@RVr        ue@RVr           ✅      0.000
+2176  ufDM46        ufDM46           ✅      0.000
+2177  ugQHb         ugQHb            ✅      0.000
+2178  uhmNnt        uhmNnt           ✅      0.000
+2179  uhnLu         uhnLu            ✅      0.000
+2180  ukD69         ukD69            ✅      0.000
+2181  umZDr         umZDr            ✅      0.000
+2182  un6uR         Un6uR            ❌      0.200
+2183  unnt          unnt             ✅      0.000
+2184  uq7QmD        uq7QmD           ✅      0.000
+2185  ur=NG         ur=NG            ✅      0.000
+2186  urbhXf        urbhXf           ✅      0.000
+2187  uuMfQ         uuMfQ            ✅      0.000
+2188  wgZ6K         WgZ6K            ❌      0.200
+2189  x44ML         X44ML            ❌      0.200
+
+=======================================================
+  Samples tested    : 2189
+  Exact matches     : 2141/2189  (97.8%)
+  Mean CER          : 0.0050  (0.50%)
+=======================================================
+  🎉 Excellent accuracy (≥90%)!
