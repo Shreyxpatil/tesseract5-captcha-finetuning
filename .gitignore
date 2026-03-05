@@ -18,3 +18,6 @@ langdata_lstm/
 lable_captcha*/
 eng.traineddata
 eng_best.traineddata
+*_errors.txt
+*_test_results.txt
+*.code-workspace
